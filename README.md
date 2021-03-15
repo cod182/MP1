@@ -11,7 +11,7 @@ The use will be to display and advertise the services offered by a Videographer/
 
 A deployed link to the site can be found [here](https://cod182.github.io/Milestone-Project-1/)
 
-![Preivew](https://github.com/cod182/Milestone-Project-1/blob/c485202042b320362b163c428c0fc1122edbc6ac/assets/images/wireframes/site-image.png)
+![Preivew](assets/images/wireframes/site-image.png)
 
 
 # UX
@@ -62,11 +62,11 @@ Technical Capabilities
 ## Skeleton
 
 ### wireframes
-- ![XS >576px](https://github.com/cod182/Milestone-Project-1/blob/7151ecd93a32b3a2402a9ac5c1721d1fb9d5bcc5/assets/images/wireframes/XS%20-%20Width%20-%20_576px%20%28375px%29.png)
-- ![SM ≥576px](https://github.com/cod182/Milestone-Project-1/blob/7151ecd93a32b3a2402a9ac5c1721d1fb9d5bcc5/assets/images/wireframes/SM%20-%20Width%20-%20%E2%89%A5576px.png)
-- ![MD ≥768px](https://github.com/cod182/Milestone-Project-1/blob/7151ecd93a32b3a2402a9ac5c1721d1fb9d5bcc5/assets/images/wireframes/MD%20-%20Width%20-%20%E2%89%A5768px.png)
-- ![LG ≥992px](https://github.com/cod182/Milestone-Project-1/blob/7151ecd93a32b3a2402a9ac5c1721d1fb9d5bcc5/assets/images/wireframes/LG%20-%20Width%20-%20%E2%89%A5992px.png)
-- ![XXL ≥1400px](https://github.com/cod182/Milestone-Project-1/blob/7151ecd93a32b3a2402a9ac5c1721d1fb9d5bcc5/assets/images/wireframes/XXL%20-%20Width%20-%20%E2%89%A51400px.png)
+- [XS >576px](assets/images/wireframes/XS-Width-_576px(375px).png)
+- [SM ≥576px](assets/images/wireframes/SM-Width-≥576px.png)
+- [MD ≥768px](assets/images/wireframes/MD-Width-≥768px.png)
+- [LG ≥992px](assets/images/wireframes/LG-Width-≥992px.png)
+- [XXL ≥1400px](assets/images/wireframes/XXL-Width-≥1400px.png)
 
 
 ## Surface
