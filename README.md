@@ -11,7 +11,7 @@ The use will be to display and advertise the services offered by a Videographer/
 
 A deployed link to the site can be found [here](https://cod182.github.io/Milestone-Project-1/)
 
-![Preivew](https://github.com/cod182/Milestone-Project-1/blob/7151ecd93a32b3a2402a9ac5c1721d1fb9d5bcc5/assets/images/wireframes/site%20image.png)
+![Preivew](https://github.com/cod182/Milestone-Project-1/blob/c485202042b320362b163c428c0fc1122edbc6ac/assets/images/wireframes/site-image.png)
 
 
 # UX
