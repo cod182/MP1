@@ -35,6 +35,7 @@
 .navbar {
     font-weight: 400;
     font-size: 150%;
+    z-index: 1;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -61,9 +62,37 @@
 .dropdown-item:focus,
 .dropdown-item:active:focus{
     color: rgb(64, 117, 216);
+    background-color:transparent;
+    font-weight: bold;
 }
 
 .item-proj{
     color: black;
     font-weight: bold;
+}
+
+
+/* ----------------------------------------------------Hero Image */
+
+.hero-image {
+    background-image: url(../images/site-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 94vh;
+    z-index: 2;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-direction: normal;
+}
+
+
+@keyframes hero-zoom {
+
+    from{
+        transform: scale(.1);
+    }
+    to {
+        transform: scale(1);
+    }
 }
