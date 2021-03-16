@@ -80,3 +80,22 @@ Visual Design
 	Minimise cognative overload. Max intuitive learning
 	Appropriate content
 	Final Design
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Acknowledgements
+
+- https://www.tutorialspoint.com/
