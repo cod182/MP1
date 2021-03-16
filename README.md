@@ -62,7 +62,7 @@ Technical Capabilities
 ## Skeleton
 
 ### wireframes
-- [XS >576px](assets/images/wireframes/XS-Width-_576px(375px).png)
+- [XS >576px](assets/images/wireframes/XS-Width-_576px375px.png)
 - [SM ≥576px](assets/images/wireframes/SM-Width-≥576px.png)
 - [MD ≥768px](assets/images/wireframes/MD-Width-≥768px.png)
 - [LG ≥992px](assets/images/wireframes/LG-Width-≥992px.png)
