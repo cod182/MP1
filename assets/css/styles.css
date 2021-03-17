@@ -14,8 +14,20 @@
     width: 100px;
 }
 
+.line-break--thin {
+    height:10px
+}
+
+.line-break--long {
+    width: 10px;
+}
+
 .line-break--yellow{
     color: rgb(249, 249, 113);
+}
+
+.line-break--purple {
+    color: #845EC2;
 }
 
 
@@ -315,19 +327,24 @@ section .section-title {
 .frontside .card .card-title,
 .backside .card .card-title {
     color: #845EC2 !important;
-}
-
-.frontside .card .card-body img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    font-size: 200%;
+    font-family:"lato", open-sans;
 }
 
 .card {
-    height: 500px;
+    height: 550px;
 }
 
-.vid {
-    width: 120px;
-    height: 120px;
+.latest-icon {
+    font-size: 500%;
+    color: #845EC2;
+    margin-top: 20%;
+}
+
+.latest-height{
+    height:200px;
+}
+
+.btn-bottom {
+    margin-top:5vh ;
 }
