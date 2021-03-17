@@ -85,13 +85,13 @@
 
     <section class="latest-projects" id="latest-projects">
                 <!-- IMAGE FLIP CODE TAKEN FROM BOOTSTRAP via CODEPEN -->
-            <!-- Team -->
+            <!-- Collage -->
             <section id="team" class="pb-5">
                 <div class="container-fluid">
                     <h5 class="section-title h1 purple">Latest Projects</h5>
                     <hr class="line-break line-break--short line-break--yellow">
                     <div class="row">
-                        <!-- Team member -->
+                        <!-- Editing -->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                                 <div class="mainflip">
@@ -106,19 +106,25 @@
                                     <div class="backside">
                                         <div class="card">
                                             <div class="card-body text-center mt-4">
-                                                <p><img class="img-fluid latest-height" src="assets/images/latest-projects/animation.png" alt="card image"></p>
+                                                <p><video class="img-fluid" controls poster="assets/images/latest-projects/animation.png">
+                                                <source  src="assets/video/latest-projects/animation.mp4" type="video/mp4">Sorry, your browser does not support the video tag.
+                                                </video></p>                                                
                                                 <h4 class="card-title">Polar Scene</h4>
                                                 <p class="card-text">This project was to create an animation of a polar bear floating on an iceberg, under the aroura.</p>
                                                 <ul class="list-inline">
-                                                <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                    <div class="row">
+                                                        <div class="col-12 bottom">
+                                                            <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                        </div>
+                                                    </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- ./Team member -->
-                        <!-- Team member -->
+                        <!-- ./Editing -->
+                        <!-- Photography -->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                                 <div class="mainflip">
@@ -136,7 +142,11 @@
                                                 <iframe class="img-fluid latest-height" width="560" height="315" src="https://www.youtube.com/embed/eMwROvltfa0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 <h4 class="card-title">Seawatch Monthly Sightings Video</h4>
                                                 <p class="card-text">This project is to create a video for the charity to display all the sightings of aquatic life over the previous month.</p>
-                                                <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                <div class="row">
+                                                    <div class="col-12 bottom">
+                                                        <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -161,16 +171,20 @@
                                             <div class="card-body text-center mt-4">
                                                 <p><img class="img-fluid latest-height" src="assets/images/latest-projects/Photography.png" alt="card image"></p>
                                                 <h4 class="card-title">Canada Trip 2019</h4>
-                                                <p class="card-text">A selection of landscape pictures taken during a trip to Canada.</p>
-                                                <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                <p class="card-text">A selection of landscape pictures taken during a trip to Canada.<br><button class="block" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fas fa-plus-circle exp-modal"></i></button></p>
+                                                <div class="row">
+                                                    <div class="col-12 bottom">
+                                                        <button class="block btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- ./Team member -->
-                        <!-- Team member -->
+                        <!-- ./Photography -->
+                        <!-- Videoography -->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                                 <div class="mainflip">
@@ -186,27 +200,68 @@
                                         <div class="card">
                                             <div class="card-body text-center mt-4">
                                                 <p><video class="img-fluid latest-height" controls poster="assets/images/latest-projects/videography.png">
-                                                    <source  src="assets/video/latest-projects/kenworthy-chiropractic.mp4" type="video/mp4">
+                                                    <source  src="assets/video/latest-projects/kenworthy-chiropractic.mp4" type="video/mp4">Sorry, your browser does not support the video tag.
                                                 </video></p>
                                                 <h4 class="card-title">Kenworthy Chiropractic Introduction Video</h4>
                                                 <p class="card-text">This project was to create a video demonstracting what to expect to new a prospective clients.</p>
-                                                <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                <div class="row">
+                                                    <div class="col-12 bottom">
+                                                        <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- ./Team member -->
+                        <!-- ./Videoography -->
                     </div>
                 </div>
             </section>
-            <!-- Team -->
+            <!-- collage -->
     </section>   
 
     <footer>
 
     </footer>
+
+    <!-- Modal from Bootstrap-->
+            <div class="modal fade modal-bg" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content modal-bg">
+                <div class="modal-body modal-bg">
+            <div class="container modal-bg">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="h1-gal purple roboto">Canada Trip 2019</h1>
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-1.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-2.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-3.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-4.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-5.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-6.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-7.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-8.jpg">
+                <img class="img-gal" src="assets/images/latest-projects/canada/canada-9.jpg">
+                    
+      <!-- Image Carosel from Codepen -->
+		<!-- <div id="carousel">
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-1.jpg"  width="200px" height="200px" alt="Picture of water and mountians"></figure>
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-2.jpg" width="200px" height="200px" alt="Picture of water"></figure>
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-3.jpg" width="200px" height="200px" alt="Picture of mmountains"></figure>
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-4.jpg" width="200px" height="200px" alt="Picture of water refections"></figure>
+            <figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-5.jpg" width="200px" height="200px" alt="Picture of water"></figure>
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-6.jpg" width="200px" height="200px" alt="Picture of snowy mountian"></figure>
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-7.jpg" width="200px" height="200px" alt="Picture of a moose"></figure>
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-8.jpg" width="200px" height="200px" alt="Picture of a bear on rocks"></figure>
+			<figure><img class="img-caro" src="assets/images/latest-projects/canada/canada-9.jpg" width="200px" height="200px" alt="Picture of Canadia ice fields"></figure>
+        </div> -->
+        
+    </div>      
+    </div>
+    </div>
+  </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
