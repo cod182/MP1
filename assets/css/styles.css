@@ -326,3 +326,8 @@ section .section-title {
 .card {
     height: 500px;
 }
+
+.vid {
+    width: 120px;
+    height: 120px;
+}
