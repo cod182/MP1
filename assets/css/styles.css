@@ -378,8 +378,9 @@ section .section-title {
     text-align: center;
 }
 
-.modal-bg {
-    background:rgba(255, 255, 255, 0.568);
+#modal-bg {
+    background: rgba(255, 255, 255, 0.774);
+    border-radius: 20px;
 }
 
 .btn-close {
@@ -390,7 +391,6 @@ section .section-title {
 /* Gallery */
 
 .h1-gal{
-  font-family: 'Pacifico', cursive;
 text-align:center;
 
 padding-bottom:10px;
