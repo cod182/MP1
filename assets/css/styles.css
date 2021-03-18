@@ -331,7 +331,7 @@ section .section-title {
 
 .frontside .card,
 .backside .card {
-    min-height: 312px;
+    min-height: 200px;
 }
 
 .backside .card a {
@@ -453,7 +453,7 @@ border-bottom:2px solid #f1f1f1;
     color: #845EC2;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10vh;
 }
 
 .contact-box {
@@ -522,3 +522,52 @@ border-bottom:2px solid #f1f1f1;
     padding-right: 5px;
     padding-top: 5px;
 }
+
+
+/* Footer */
+
+.footer {
+    height: 120px;
+    text-align: center;
+    background-color: darkslategrey;
+}
+
+.footer i {
+    color: #845EC2;
+    margin-top: 20px;
+}
+
+.footer a {
+        text-decoration: none;
+        color: #845EC2;
+}
+
+.footer a:hover, i:hover,
+.footer a:focus, i:focus,
+.footer a:active, i:active,
+.footer a:active:focus, i:Active:focus {
+        color: #FF9671;
+}
+
+.footer-bg {
+    background-color: darkslategrey;
+    height: 120px;
+}
+
+.facebook {
+    height: 80px;
+}
+
+.youtube{
+    height: 80px;
+}
+
+.instagram {
+    height: 80px;
+}
+
+.copy {
+    text-align: center;
+    font-weight: bold;
+}
+
