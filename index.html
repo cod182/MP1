@@ -46,7 +46,7 @@
                 </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             </div>
@@ -219,8 +219,52 @@
                     </div>
                 </div>
             </section>
-            <!-- collage -->
-    </section>   
+            <!--./collage -->
+    </section> 
+
+    <section class="contact container-fluid" id="contact">
+        <div class="contaier">
+            <div class="row gx-0">
+                <div class="col-12 ">
+                    <h2 class="text-center mt-5">Lets work together!</h2>
+                    <hr class="line-break line-break--short line-break--yellow">
+                </div>
+            </div>
+        </div>
+        <div class="contact-box">
+            <form action="" method="" id="contact-form">
+                <div class="contact-input">
+                    <label for="name" class="contact-label">Name:</label>
+                    <input type="text" placeholder="Your Name Here" id="name" name="name" class="input-field" required>
+                </div>
+                <div class="contact-input">
+                    <label for="email" class="contact-label">Email:</label>
+                    <input type="email" placeholder="Your Email Here" id="email" name="email" class="input-field" required>
+                </div>
+                <div class="contact-input">
+                    <label for="phone" class="contact-label">Mobile No.</label>
+                    <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
+                </div>
+                <div class="contact-input">
+                    <label for="project" class="contact-label">Project Type:</label>
+                    <select id="project" name="project" class="input-field" required>
+                        <option value="Animation">Animation</option>
+                        <option value="Editing">Editing</option>
+                        <option value="Photography">Photography</option>
+                        <option value="Videography">Videography</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    </div>
+                <div class="contact-input">
+                    <label for="message" class="contact-label">Project Description:</label>
+                    <textarea id="message" name="message" class="input-message" required>Message Here</textarea>
+                </div>
+                <div class="contact-input">
+                    <button class="btn btn-primary">Send Message!</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
     <footer>
 

@@ -205,7 +205,7 @@
     ====================================Latest Projects Section======= */
 
 .latest-projects {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -271,6 +271,9 @@ section .section-title {
 }
 
 .mainflip {
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
     -webkit-transition: 1s;
     -webkit-transform-style: preserve-3d;
     -ms-transition: 1s;
@@ -285,6 +288,7 @@ section .section-title {
 
 .frontside {
     position: relative;
+    transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     z-index: 2;
@@ -426,4 +430,65 @@ border-bottom:2px solid #f1f1f1;
   to {
       transform:scale(2)
     }
+}
+
+/* =====================================================
+    ====================================Contact Section======= */
+
+.contact {
+    background-image: url(../images/contact-image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.contact-box {
+    min-height: 40vh;
+    min-width: 40vw;
+    background-color: rgba(102, 102, 102, 0.473);
+    border-radius: 20px;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.contact-input button {
+    margin: 20px;
+}
+
+.contact-label {
+    font-family: lato, "open-sans";
+    font-size: 150%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.input-field {
+    background-color: rgba(255, 255, 255, 0.664);
+    color: #845EC2;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-right: 5px;
+    padding-left: 5px;
+
+}
+
+.input-message {
+    background-color: rgba(255, 255, 255, 0.664);
+    color: #845EC2;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-right: 5px;
 }
