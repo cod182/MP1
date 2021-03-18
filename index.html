@@ -54,7 +54,9 @@
         </nav>
 
     </header>
-    
+
+
+<!-- Hero Image -->
     <section class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -63,7 +65,8 @@
         </div>    
     </section>
 
-    <section class="container-fluid about-section" id="about">
+<!-- About Section -->
+    <section class="container-fluid p-0 about-section" id="about">
         <div class="about-image">
             <div class="about-overlay"></div>
             <div class="row">
@@ -82,7 +85,7 @@
         </div>
     </section>
 
-
+<!-- Latest projects -->
     <section class="latest-projects" id="latest-projects">
                 <!-- IMAGE FLIP CODE TAKEN FROM BOOTSTRAP via CODEPEN -->
             <!-- Collage -->
@@ -106,9 +109,9 @@
                                     <div class="backside">
                                         <div class="card">
                                             <div class="card-body text-center mt-4">
-                                                <p><video class="img-fluid latest-height" controls poster="assets/images/latest-projects/animation.png">
+                                                <video class="img-fluid latest-height fix-top" controls poster="assets/images/latest-projects/animation.png">
                                                     <source  src="assets/video/latest-projects/animation.mp4" type="video/mp4">Sorry, your browser does not support the video tag.
-                                                </video></p>                                             
+                                                </video>                                           
                                                 <h4 class="card-title">Polar Scene</h4>
                                                 <p class="card-text">This project was to create an animation of a polar bear floating on an iceberg, under the aroura.</p>
                                                 <ul class="list-inline">
@@ -169,7 +172,7 @@
                                     <div class="backside">
                                         <div class="card">
                                             <div class="card-body text-center mt-4">
-                                                <p><img class="img-fluid latest-height" src="assets/images/latest-projects/Photography.png" alt="card image"></p>
+                                                <img class="img-fluid latest-height" src="assets/images/latest-projects/Photography.png" alt="card image">
                                                 <h4 class="card-title">Canada Trip 2019</h4>
                                                 <p class="card-text">A selection of landscape pictures taken during a trip to Canada.<br><button class="block" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fas fa-plus-circle exp-modal"></i></button></p>
                                                 <div class="row">
@@ -199,9 +202,9 @@
                                     <div class="backside">
                                         <div class="card">
                                             <div class="card-body text-center mt-4">
-                                                <p><video class="img-fluid latest-height" controls poster="assets/images/latest-projects/videography.png">
+                                                <video class="img-fluid latest-height" controls poster="assets/images/latest-projects/videography.png">
                                                     <source  src="assets/video/latest-projects/kenworthy-chiropractic.mp4" type="video/mp4">Sorry, your browser does not support the video tag.
-                                                </video></p>
+                                                </video>
                                                 <h4 class="card-title">Kenworthy Chiropractic Introduction Video</h4>
                                                 <p class="card-text">This project was to create a video demonstracting what to expect to new a prospective clients.</p>
                                                 <div class="row">
@@ -223,46 +226,53 @@
     </section> 
 
     <section class="contact container-fluid" id="contact">
-        <div class="contaier">
+        <div class="contaier-fluid">
             <div class="row gx-0">
                 <div class="col-12 ">
-                    <h2 class="text-center mt-5">Lets work together!</h2>
+                    <h2 class="contact-heading">Lets work together!</h2>
                     <hr class="line-break line-break--short line-break--yellow">
                 </div>
             </div>
         </div>
-        <div class="contact-box">
-            <form action="" method="" id="contact-form">
-                <div class="contact-input">
-                    <label for="name" class="contact-label">Name:</label>
-                    <input type="text" placeholder="Your Name Here" id="name" name="name" class="input-field" required>
-                </div>
-                <div class="contact-input">
-                    <label for="email" class="contact-label">Email:</label>
-                    <input type="email" placeholder="Your Email Here" id="email" name="email" class="input-field" required>
-                </div>
-                <div class="contact-input">
-                    <label for="phone" class="contact-label">Mobile No.</label>
-                    <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
-                </div>
-                <div class="contact-input">
-                    <label for="project" class="contact-label">Project Type:</label>
-                    <select id="project" name="project" class="input-field" required>
-                        <option value="Animation">Animation</option>
-                        <option value="Editing">Editing</option>
-                        <option value="Photography">Photography</option>
-                        <option value="Videography">Videography</option>
-                        <option value="Other">Other</option>
-                    </select>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact-box">
+                        <h3 class="contact-title">Just fill out your details below</h3>
+                        <form action="" method="" id="contact-form">
+                            <div class="contact-input">
+                                <label for="name" class="contact-label">Name:</label>
+                                <input type="text" placeholder="Name Here" id="name" name="name" class="input-field" required>
+                            </div>
+                            <div class="contact-input">
+                                <label for="email" class="contact-label">Email:</label>
+                                <input type="email" placeholder="Email Address Here" id="email" name="email" class="input-field" required>
+                            </div>
+                            <div class="contact-input">
+                                <label for="phone" class="contact-label">Mobile No.</label>
+                                <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
+                            </div>
+                            <div class="contact-input">
+                                <label for="project" class="contact-label">Project Type:</label>
+                                <select id="project" name="project" class="input-field" required>
+                                    <option value="Animation">Animation</option>
+                                    <option value="Editing">Editing</option>
+                                    <option value="Photography">Photography</option>
+                                    <option value="Videography">Videography</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                </div>
+                            <div class="contact-input">
+                                <label for="message" class="contact-label">Project Description:</label>
+                                <textarea id="message" name="message" class="input-message" rows="5" cols="35" required>Message Here</textarea>
+                            </div>
+                            <div class="contact-input">
+                                <button class="btn btn-primary">Send Message!</button>
+                            </div>
+                        </form>
                     </div>
-                <div class="contact-input">
-                    <label for="message" class="contact-label">Project Description:</label>
-                    <textarea id="message" name="message" class="input-message" required>Message Here</textarea>
                 </div>
-                <div class="contact-input">
-                    <button class="btn btn-primary">Send Message!</button>
-                </div>
-            </form>
+            </div>
         </div>
     </section>
 
