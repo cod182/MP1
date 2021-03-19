@@ -181,7 +181,9 @@
 .about-section {
     padding-top: 100px;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 .about-image {
@@ -191,27 +193,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     position: relative;
     padding: 0;
     margin: 0;
-    z-index: -1;
+    z-index: -2;
 }
 
 .about-overlay {
     width: 80%;
-    height: 85%;
+    height: 90%;
     background-color: rgba(255, 255, 255, 0.664);
     border-radius: 100px;
     position: absolute;
     z-index: -1;
     left: 10%;
     top: 9%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .about-heading {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 10vh;
     margin-bottom: 20px;
     color: #845EC2;
 
@@ -225,6 +229,16 @@
     padding-right: 10vw;
 }
 
+.creator {
+    border-bottom: 3rem solid black;
+    border-left: 1rem solid black;
+    border-right: 1rem solid black;
+    border-top: 1rem solid black;
+    max-width: 70%;
+    max-height: 75%;
+    transform: rotate(20deg);
+    margin: 0 auto;
+}
 
 /* =====================================================
     ====================================Latest Projects Section======= */
@@ -438,14 +452,15 @@ border-bottom:2px solid #f1f1f1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: fill;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     position: relative;
 }
 
 .contact-box {
-    height: 60vh;
-    width: 60vw;
+    min-height: 40vh;
+    min-width: 30vw;
+    max-width: 60vw;
     background-color: rgba(102, 102, 102, 0.473);
     border-radius: 20px;
     position: absolute;
@@ -487,10 +502,13 @@ border-bottom:2px solid #f1f1f1;
     padding-left: 5px;
 }
 
+::placeholder {
+  color: #845EC2;
+}
+
 .input-field:active,
-.input-field:focus,
-.input-field:active:focus {
-    border: none;
+.input-field:focus {
+    outline: none;
 }
 
 .input-message {
@@ -517,8 +535,8 @@ border-bottom:2px solid #f1f1f1;
         margin: 0;
     }
     .contact-box {
-        width: 90vw;
-        height: 80vh;
+        max-width: 90vw;
+        max-height: 80vh;
         transform: translate(-50%, -45%);
     }
 }
