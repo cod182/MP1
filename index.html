@@ -20,14 +20,14 @@
         <!-- Bootstrap nav bar as a starting point -->
         <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand site-icon" href="index.html"></a>
+            <a class="navbar-brand site-icon" aria-label="Whale Hello Icon" href="index.html"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse navbar-mr" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
@@ -60,7 +60,7 @@
     <section class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div class="hero-image"></div>
+                <div class="hero-image" aria-label="Whale Hello Logo"></div>
             </div>
         </div>    
     </section>
@@ -87,12 +87,18 @@
 
 <!-- Latest projects -->
     <section class="latest-projects" id="latest-projects">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="projects-title purple">Latest Projects</h2>
+                    <hr class="line-break line-break--short line-break--purple">
+                </div>
+            </div>
+        </div>
                 <!-- IMAGE FLIP CODE TAKEN FROM BOOTSTRAP via CODEPEN -->
             <!-- Collage -->
             <section id="team" class="pb-5">
                 <div class="container-fluid">
-                    <h5 class="section-title h1 purple">Latest Projects</h5>
-                    <hr class="line-break line-break--short line-break--yellow">
                     <div class="row">
                         <!-- Animation -->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -117,7 +123,7 @@
                                                 <ul class="list-inline">
                                                     <div class="row">
                                                         <div class="col-12 bottom">
-                                                            <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                            <button class="btn btn-primary btn-bottom" aria-label="View More Animation Projects"><a href="#">View More</a></button>
                                                         </div>
                                                     </div>
                                             </div>
@@ -142,12 +148,12 @@
                                     <div class="backside">
                                         <div class="card">
                                             <div class="card-body text-center mt-4">
-                                                <iframe class="img-fluid latest-height" width="560" height="315" src="https://www.youtube.com/embed/eMwROvltfa0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <iframe title="Seawatch Sightings video" class="img-fluid latest-height" width="560" height="315" src="https://www.youtube.com/embed/eMwROvltfa0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 <h4 class="card-title">Seawatch Monthly Sightings Video</h4>
                                                 <p class="card-text">This project is to create a video for the charity to display all the sightings of aquatic life over the previous month.</p>
                                                 <div class="row">
                                                     <div class="col-12 bottom">
-                                                        <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                        <button class="btn btn-primary btn-bottom" aria-label="View More Editing Projects"><a href="#">View More</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -174,10 +180,11 @@
                                             <div class="card-body text-center mt-4">
                                                 <img class="img-fluid latest-height" src="assets/images/latest-projects/Photography.png" alt="card image">
                                                 <h4 class="card-title">Canada Trip 2019</h4>
-                                                <p class="card-text">A selection of landscape pictures taken during a trip to Canada.<br><button class="block" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fas fa-plus-circle exp-modal"></i></button></p>
+                                                <p class="card-text">A selection of landscape pictures taken during a trip to Canada.<br>
+                                                    <button class="block" data-bs-toggle="modal" data-bs-target="#staticBackdrop" aria-label="View More Photos"><i class="fas fa-plus-circle exp-modal"></i></button></p>
                                                 <div class="row">
                                                     <div class="col-12 bottom">
-                                                        <button class="block btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                        <button class="block btn btn-primary btn-bottom" aria-label="View More Photography Projects"><a href="#">View More</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -209,7 +216,7 @@
                                                 <p class="card-text">This project was to create a video demonstracting what to expect to new a prospective clients.</p>
                                                 <div class="row">
                                                     <div class="col-12 bottom">
-                                                        <button class="btn btn-primary btn-bottom"><a href="#">View More</a></button>
+                                                        <button class="btn btn-primary btn-bottom" aria-label="View More Videography Projects"><a href="#">View More</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -226,19 +233,82 @@
     </section> 
 
     <section class="contact container-fluid" id="contact">
-        <div class="contaier-fluid">
-            <div class="row gx-0">
-                <div class="col-12 ">
-                    <h2 class="contact-heading">Lets work together!</h2>
-                    <hr class="line-break line-break--short line-break--yellow">
+        <div class="container contact-box">
+            <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-title">Lets work together!</h2>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-3">
+                        <label for="name" class="contact-label">Name:</label>
+                    </div>
+                    <div class="col-xs-12 col-lg-9">
+                        <input type="text" placeholder="Name Here" id="name" name="name" class="input-field" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-lg-3">
+                        <label for="email" class="contact-label">Email:</label>
+                    </div>
+                    <div class="col-xs-12 col-lg-9">
+                        <input type="email" placeholder="Email Address Here" id="email" name="email" class="input-field" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-lg-3">
+                        <label for="phone" class="contact-label">Contact No.</label>
+                    </div>
+                    <div class="col-xs-12 col-lg-9">
+                        <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-lg-3">
+                        <label for="project" class="contact-label">Project Type:</label>
+                    </div>
+                    <div class="col-xs-12 col-lg-9">
+                        <select id="project" name="project" class="input-field" required>
+                            <option value="Animation">Animation</option>
+                            <option value="Editing">Editing</option>
+                            <option value="Photography">Photography</option>
+                            <option value="Videography">Videography</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-lg-3">
+                        <label for="message" class="contact-label">Project Description:</label>
+                    </div>
+                    <div class="col-xs-12 col-lg-9 input-mess-sm">
+                        <textarea id="message" name="message" class="input-message" rows="5" cols="35" required>Message Here</textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="contact-input">
+                            <button class="btn btn-primary" aria-label="Send Message Button">Send Message!</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+    </section>
+    
+    <!-- <section class="contact container-fluid" id="contact">
             <div class="row">
                 <div class="col-12">
                     <div class="contact-box">
-                        <h3 class="contact-title">Just fill out your details below</h3>
+                        <h3 class="contact-title">Lets work together!</h3>
                         <form action="" method="" id="contact-form">
                             <div class="contact-input">
                                 <label for="name" class="contact-label">Name:</label>
@@ -267,14 +337,13 @@
                                 <textarea id="message" name="message" class="input-message" rows="5" cols="35" required>Message Here</textarea>
                             </div>
                             <div class="contact-input">
-                                <button class="btn btn-primary">Send Message!</button>
+                                <button class="btn btn-primary" aria-label="Send Message Button">Send Message!</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+    </section> -->
 
     <footer>
 
@@ -313,7 +382,7 @@
                 <div class="modal-content modal-over" id="modal-bg">
                     <div class="modal-body modal-over">
                         <div class="container modal-over">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close window"></button>
                         <h1 class="h1-gal purple roboto">Canada Trip 2019</h1>
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
