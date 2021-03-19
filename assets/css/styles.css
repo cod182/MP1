@@ -202,7 +202,7 @@
 
 .about-overlay {
     width: 80%;
-    height: 90%;
+    height: 70%;
     background-color: rgba(255, 255, 255, 0.664);
     border-radius: 100px;
     position: absolute;
@@ -211,14 +211,14 @@
     top: 9%;
     padding-top: 2em;
     padding-bottom: 2em;
+    margin-top: 15vh;
 }
 
 .about-heading {
     text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 20px;
+    margin-top: 15vh;
+    margin-bottom: 10px;
     color: #845EC2;
-
 }
 
 .about-text {
