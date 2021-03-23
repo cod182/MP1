@@ -68,6 +68,7 @@
     color: black;
     background-color: #FF9671;
     border-color: #FF9671;
+    transition: ease-in-out .4s;
 }
 
 /* =====================================================
@@ -109,6 +110,7 @@
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:active:focus {
     color: #FF9671;
+    transition: ease-in-out .4s;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
@@ -177,67 +179,46 @@
 
 /* =====================================================
     ====================================About Section======= */
-    
+
 .about-section {
     padding-top: 100px;
     width: 100vw;
     min-height: 100vh;
     padding: 0;
     margin: 0;
-}
-
-.about-image {
     background-image: url(../images/about-skills/anim-skills/image-1.png);
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
     position: relative;
     padding: 0;
     margin: 0;
-    z-index: -2;
-}
-
-.about-overlay {
-    width: 80%;
-    height: 70%;
-    background-color: rgba(255, 255, 255, 0.664);
-    border-radius: 100px;
-    position: absolute;
-    z-index: -1;
-    left: 10%;
-    top: 9%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-top: 15vh;
+    display: block;       
 }
 
 .about-heading {
     text-align: center;
-    margin-top: 15vh;
-    margin-bottom: 10px;
     color: #845EC2;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-
 .about-text {
     font-family: "lato", open-sans;
     font-size: larger;
     text-align: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    width: 80vw;
+    margin: 100px auto;
+    padding: 10px;
 }
 
-.creator {
-    border-bottom: 3rem solid black;
-    border-left: 1rem solid black;
-    border-right: 1rem solid black;
-    border-top: 1rem solid black;
-    max-width: 70%;
-    max-height: 75%;
-    transform: rotate(20deg);
-    margin: 0 auto;
+.owner {
+    width: 10vw;
 }
 
 /* =====================================================
@@ -457,8 +438,14 @@ border-bottom:2px solid #f1f1f1;
     position: relative;
 }
 
+.contact-heading {
+    color: #845EC2;
+    text-align: center;
+    margin-top: 100px;
+}
+
 .contact-box {
-    min-height: 40vh;
+    min-height: 60vh;
     min-width: 30vw;
     max-width: 60vw;
     background-color: rgba(102, 102, 102, 0.473);
@@ -466,7 +453,7 @@ border-bottom:2px solid #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -42%);
     padding: 20px;
 }
 
@@ -476,10 +463,6 @@ border-bottom:2px solid #f1f1f1;
     text-align: center;
     margin-top: .5rem;
     font-size: x-large;
-}
-
-.contact-title {
-    text-align: center;
 }
 
 .contact-label {
@@ -520,46 +503,33 @@ border-bottom:2px solid #f1f1f1;
     margin: 10px 0 10px 0;
     padding-left: 5px;
 }
-.contact-input button{
+.contact-input button {
     float: right;
-    color: black;
+    color: #FF9671;
     font-weight: 400;
     font-family: roboto,"open-sans";
 }
 
-@media screen and (max-width:600px) {
-    .contact-label {
-        margin: 0;
-    }
-    .input-field{
-        margin: 0;
+.contact-input button:hover,
+.contact-input button:active,
+.contact-input button:focus {
+    color: #845EC2;
+}
+/* 
+@media screen and (min-width:360px) {
+    .contact-heading {
+        margin-top: 100px;
     }
     .contact-box {
         max-width: 90vw;
-        max-height: 80vh;
-        transform: translate(-50%, -45%);
+        height: 600px;
+        margin-top: 150px;
     }
-}
-
-@media screen and (width:320px) {
-    .contact-label {
+    .input-field {
+        width: 100%;
         margin: 0;
     }
-    .input-field{
-        margin: 0;
-    }
-    .contact-box {
-        width: 90vw;
-        height: 80vh;
-        transform: translate(-50%, -45%);
-    }
-    .input-message {
-        height: 20%;
-    }
-    .input-mess-sm {
-        height: 80px;
-    }
-}
+} */
 
 /* Footer */
 
@@ -595,16 +565,10 @@ border-bottom:2px solid #f1f1f1;
     height: 80px;
 }
 
-.youtube{
+.youtube {
     height: 80px;
 }
 
 .instagram {
     height: 80px;
 }
-
-.copy {
-    text-align: center;
-    font-weight: bold;
-}
-

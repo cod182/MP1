@@ -71,7 +71,26 @@ Technical Capabilities
 
 ## Surface
 
-What the finished product will look like
+The finished site will be a single page introducing the company, and showing their work.
+
+### Home
+The home page will contain a Navbar along the top that will shrink on tablets and mobile. It will also containt an full height hero image of the companies logo.
+
+### About
+The about seciton wil be full height with an image back ground and overlay. The about text will introduce the company.
+
+### Latest Projects
+The latest projects section will display the latest projects from each aspect of the company. There will also be link to archive pages for each of the project caracories.
+
+### Contact
+The contact section will be full height with a form to enter required details and send a message to the company.
+
+### Archive Pages
+Each catagories page will be similar. There will be a number of projects displayed will relevant information on each.
+
+#### Colour Scheme/Typography/Effects/Imagery
+The colours to be using on the page are a contrasting <span style="color:#845EC2">purple</span> and <span style="color:#FF9671">orange</span>.
+The fonts to be used on the site are Roboto and Lato.
 
 Visual Design
 	Colours, typography, effects, imagery
@@ -80,21 +99,6 @@ Visual Design
 	Minimise cognative overload. Max intuitive learning
 	Appropriate content
 	Final Design
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Acknowledgements
 
