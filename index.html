@@ -10,12 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/5351067769.js" crossorigin="anonymous"></script>
-
-
-
 </head>
 <body>
-
     <header>
         <!-- Bootstrap nav bar as a starting point -->
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -42,7 +38,6 @@
                     <li><a class="dropdown-item" href="#">Photography</a></li>
                     <li><a class="dropdown-item" href="#">Editing</a></li>
                     <li><a class="dropdown-item" href="#">Animation</a></li>
-
                 </ul>
                 </li>
                 <li class="nav-item">
@@ -54,8 +49,6 @@
         </nav>
 
     </header>
-
-
 <!-- Hero Image -->
     <section class="container-fluid">
         <div class="row">
@@ -64,9 +57,7 @@
             </div>
         </div>    
     </section>
-
 <!-- About Section -->
-
     <section class="container-fluid p-0" id="about">
             <div class="about-section">
                 <div class="row g-0">
@@ -80,8 +71,7 @@
                 </div>
             </div>
     </section>
-
-<!-- Latest projects -->
+    <!-- Latest projects -->
     <section class="latest-projects" id="latest-projects">
         <div class="container-fluid">
             <div class="row">
@@ -227,83 +217,83 @@
             </section>
             <!--./collage -->
     </section> 
-
-    <section class="contact container-fluid" id="contact">
-        <!-- Heading out of form box -->
-        <div class="row">
+<!-- Contact Section -->
+    <section class="container-fluid p-0 m-0 g-x" id="contact">
+        <div class="contact">
+            <div class="row p-0 m-0 g-x">
                 <div class="col-12">
                     <h1 class="contact-heading">Want to work together?</h1>
                 </div>
             </div>
-        <!-- title of form box -->
-        <div class="container contact-box">
-            <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-title">Fill out the details below</h2>
-                </div>
-            </div>
-            <!-- Form  -->
-        <form class="container" action="" method="">
-            <div class="row">
-                <div class="col-xs-12 col-lg-3">
-                    <label for="name" class="contact-label">Name:</label>
-                </div>
-                <div class="col-xs-12 col-lg-9">
-                    <input type="text" placeholder="Name Here" id="name" name="name" class="input-field" required>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-lg-3">
-                    <label for="email" class="contact-label">Email:</label>
-                </div>
-                <div class="col-xs-12 col-lg-9">
-                    <input type="email" placeholder="Email Address Here" id="email" name="email" class="input-field" required>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-lg-3">
-                    <label for="phone" class="contact-label">Contact No.</label>
-                </div>
-                <div class="col-xs-12 col-lg-9">
-                    <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-lg-3">
-                    <label for="project" class="contact-label">Project Type:</label>
-                </div>
-                <div class="col-xs-12 col-lg-9">
-                    <select id="project" name="project" class="input-field" required>
-                        <option value="Animation">Animation</option>
-                        <option value="Editing">Editing</option>
-                        <option value="Photography">Photography</option>
-                        <option value="Videography">Videography</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-lg-3">
-                    <label for="message" class="contact-label">Project Description:</label>
-                </div>
-                <div class="col-xs-12 col-lg-9 input-mess-sm">
-                    <textarea id="message" name="message" class="input-message" rows="5" cols="35" required>Message Here</textarea>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="contact-input">
-                        <button class="btn btn-primary" aria-label="Send Message Button">Send Message!</button>
+            <div class="row p-0 m-0 g-x">
+                <form method="" action="" class="container contact-box">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="contact-title">Fill out the details below</h2>
+                            </div> 
                     </div>
-                </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-3">
+                            <label for="name" class="contact-label">Name:</label>
+                        </div>
+                        <div class="col-xs-12 col-lg-9">
+                            <input type="text" placeholder="Name Here" id="name" name="name" class="input-field" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-3">
+                            <label for="email" class="contact-label">Email:</label>
+                        </div>
+                        <div class="col-xs-12 col-lg-9">
+                            <input type="email" placeholder="Email Address Here" id="email" name="email" class="input-field" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-3">
+                            <label for="phone" class="contact-label">Contact No.</label>
+                        </div>
+                        <div class="col-xs-12 col-lg-9">
+                            <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-3">
+                            <label for="project" class="contact-label">Project Type:</label>
+                        </div>
+                        <div class="col-xs-12 col-lg-9">
+                            <select id="project" name="project" class="input-field" required>
+                                <option value="Animation">Animation</option>
+                                <option value="Editing">Editing</option>
+                                <option value="Photography">Photography</option>
+                                <option value="Videography">Videography</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-3">
+                            <label for="message" class="contact-label">Project Description:</label>
+                        </div>
+                        <div class="col-xs-12 col-lg-9 input-mess-sm">
+                            <textarea id="message" name="message" class="input-message" rows="5" cols="35" required>Message Here</textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="contact-input">
+                                <button class="btn btn-primary" aria-label="Send Message Button">Send Message!</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </section>
 
     <footer>
