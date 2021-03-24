@@ -221,6 +221,10 @@
     width: 10vw;
 }
 
+@media only screen and (max-width:768px) {
+    .about-section {
+        background-attachment: unset;
+}
 /* =====================================================
     ====================================Latest Projects Section======= */
 
@@ -516,6 +520,9 @@ border-bottom:2px solid #f1f1f1;
     .contact-box {
         min-width: 80vw;
         margin-top: 50px;
+    }
+    .contact {
+        background-attachment:unset;
     }
 }
 
