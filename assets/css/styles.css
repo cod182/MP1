@@ -55,7 +55,9 @@
 
 /* =====================================================
     ====================================Buttons======= */
-
+button {
+    background: none;
+}
 .btn-primary {
     background-color: #845EC2;
     border-color: #845EC2;
@@ -71,6 +73,38 @@
     transition: ease-in-out .4s;
 }
 
+.btn--top{
+    background-color: rgba(132, 94, 194, 0.815);
+    border-radius: 10px 0 0 10px ;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 150px;
+    right: 0;
+    font-size: 25px;
+    color: #FF9671;
+    transition: ease-in-out .4s;
+    padding: 0;
+}
+.btn--top:hover a,
+.btn--top a i:hover,
+.btn--top a i:active,
+.btn--top a i:focus,
+.btn--top a i:active:focus {
+    color: black;
+    transition: ease-in-out .4s;
+}
+
+.btn--top a {
+    color: #FF9671;
+}
+
+.btn--top a i:hover,
+.btn--top a i:active,
+.btn--top a i:focus,
+.btn--top a i:active:focus {
+    color: black;
+}
 /* =====================================================
     ====================================Navbar======= */
 .navbar, .navbar-expand-lg, .navbar-light{
@@ -212,7 +246,6 @@
     border-radius: 20px;
     top: 50%;
     left: 50%;
-    /* width: 80vw; */
     margin: 100px auto;
     padding: 20px;
 }
@@ -222,7 +255,7 @@
 }
 
 .about-logo {
-    margin: 0 auto;
+    margin: auto;
 }
 
 .about-logo img{
@@ -230,6 +263,7 @@
     max-width: 100%;
     filter:opacity(80%);
     margin-bottom: 50px;
+    vertical-align: middle;
 }
 
 @media only screen and (max-width:768px) {
@@ -370,15 +404,15 @@ HTML CSSResult Skip Results Iframe
     margin-top: 250px;
 }
 
-.fa-plus-circle {
+.more-photos {
     font-size: 150%;
     color: #845EC2;
 }
 
-.fa-plus-circle:hover,
-.fa-plus-circle:focus,
-.fa-plus-circle:active,
-.fa-plus-circle:active:focus {
+.more-photos:hover,
+.more-photos:focus,
+.more-photos:active,
+.more-photos:active:focus {
     color: #FF9671;
 }
 /* =====================================================

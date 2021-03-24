@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/5351067769.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header id="top">
         <!-- Bootstrap nav bar as a starting point -->
         <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -81,14 +81,20 @@
                         </div>
                     </div>
                     <div class="row p-0 m-0 g-0">
-                        <div class="col-lg-5 col-md-10 about-logo">
+                        <div class="col-lg-3 col-md-5 about-logo">
                             <img class="mx-auto d-block" src="assets/images/logos/logo-1.png" alt="Seawatch Logo">
                         </div>
-                        <div class="col-lg-4 col-md-10 about-logo">
+                        <div class="col-lg-2 col-md-5 about-logo">
                             <img class="mx-auto d-block" src="assets/images/logos/logo-3.png" alt="Prickly Pooches Logo">
                         </div>
-                        <div class="col-lg-2 col-md-10 about-logo">
+                        <div class="col-lg-2 col-md-3 about-logo">
                             <img class="mx-auto d-block" src="assets/images/logos/logo-2.png" alt="Cardiff Canine Citizens Logo">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-xs-6 about-logo">
+                            <img class="mx-auto d-block" src="assets/images/logos/logo-4.png" alt="Mi Little Pad Logo">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-xs-6 about-logo">
+                            <img class="mx-auto d-block" src="assets/images/logos/logo-5.png" alt="Kids With Bricks Logo">
                         </div>
                     </div>
                 </div>
@@ -190,7 +196,8 @@
                                                 <img class="img-fluid latest-height" src="assets/images/latest-projects/Photography.png" alt="card image">
                                                 <h4 class="card-title">Canada Trip 2019</h4>
                                                 <p class="card-text">A selection of landscape pictures taken during a trip to Canada.<br>
-                                                    <button class="block" data-bs-toggle="modal" data-bs-target="#staticBackdrop" aria-label="View More Photos"><i class="fas fa-plus-circle exp-modal"></i></button></p>
+                                                    <!-- link to modal take from bootstrap -->
+                                                    <button class="block" data-bs-toggle="modal" data-bs-target="#staticBackdrop" aria-label="View More Photos"><i class="more-photos fas fa-plus-circle exp-modal"></i></button></p>
                                                 <div class="row">
                                                     <div class="col-12 bottom">
                                                         <button class="block btn btn-primary btn-bottom" aria-label="View More Photography Projects"><a href="#">View Portfolio</a></button>
@@ -348,6 +355,15 @@
             </div>
         </div>
     </footer>
+
+    <!-- Top of Page Button -->
+    <div name="top-button">
+        <button class="btn btn--top" type="button" aria-label="Go to top of Page">
+            <a href="#top" class="top" aria-label="Go to top of Page">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </button>
+    </div>
 
     <!-- Modal from Bootstrap-->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
