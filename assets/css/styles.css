@@ -646,3 +646,73 @@ border-bottom:2px solid #f1f1f1;
 .instagram {
     height: 80px;
 }
+
+/* ==========================================================================================================
+    =========================================================================================Animation Page======= */
+
+.portfolio {
+    min-height: 100vh;
+}
+
+.portfolio-heading {
+    font-family: roboto, "open-sans";
+    margin-top: 100px;
+    text-align: center;
+    color: #845EC2;
+}
+
+.faves-area {
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.faves-box {
+    background-color: #845EC2;
+    border-radius: 30px;
+    float:none;
+    vertical-align: middle;
+}
+
+.faves-heading{
+    color: #FF9671;
+    text-align: center;
+    font-size: 200%;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    margin: 20px auto;
+}
+
+.faves-heading i {
+    transform: rotate(90deg);
+}
+
+.project {
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 33%;
+    margin: 20px auto;
+}
+
+.archive-area {
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.archive-box {
+    background-color: #845EC2;
+    border-radius: 30px;
+    float:none;
+    vertical-align: middle;
+}
+
+.archive-heading{
+    color: #FF9671;
+    text-align: center;
+    font-size: 200%;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    margin: 20px auto;
+}
