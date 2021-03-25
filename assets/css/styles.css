@@ -662,18 +662,30 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .faves-area {
-    margin-bottom: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;   
 }
 
-.faves-box {
+.faves-bg {
+    background-image: url(../images/latest-projects/animation.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.title-box {
     background-color: #845EC2;
     border-radius: 30px;
     float:none;
     vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: px;
+    margin-right: 0px;
 }
 
-.faves-heading{
+.section-heading{
     color: #FF9671;
     text-align: center;
     font-size: 200%;
@@ -682,8 +694,9 @@ border-bottom:2px solid #f1f1f1;
     margin: 20px auto;
 }
 
-.faves-heading i {
+.section-heading i {
     transform: rotate(90deg);
+    color: red;
 }
 
 .project {
@@ -692,27 +705,24 @@ border-bottom:2px solid #f1f1f1;
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
-    width: 33%;
-    margin: 20px auto;
+    min-width: 33%;
+    margin:5% auto;
+    overflow: auto;
 }
 
 .archive-area {
     margin-bottom: 50px;
-    margin-bottom: 50px;
 }
 
-.archive-box {
-    background-color: #845EC2;
-    border-radius: 30px;
-    float:none;
-    vertical-align: middle;
-}
-
-.archive-heading{
-    color: #FF9671;
-    text-align: center;
-    font-size: 200%;
-    writing-mode: vertical-rl;
-    transform: rotate(-180deg);
-    margin: 20px auto;
+@media screen and (max-width:767px) {
+    .section-heading {
+        writing-mode: unset;
+        transform: rotate(360deg);
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 170%;
+    }
+    .section-heading i {
+        transform: rotate(360deg);
+    }
 }
