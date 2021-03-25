@@ -677,26 +677,25 @@ border-bottom:2px solid #f1f1f1;
 .title-box {
     background-color: #845EC2;
     border-radius: 30px;
-    float:none;
-    vertical-align: middle;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: px;
-    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.section-heading{
+.section-heading {
     color: #FF9671;
     text-align: center;
     font-size: 200%;
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
     margin: 20px auto;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .section-heading i {
     transform: rotate(90deg);
-    color: red;
+    color: rgb(201, 38, 38);
 }
 
 .project {
@@ -708,6 +707,17 @@ border-bottom:2px solid #f1f1f1;
     min-width: 33%;
     margin:5% auto;
     overflow: auto;
+}
+
+.project h3 {
+    font-family: roboto, "open-sans";
+    font-size: 180%;
+}
+
+.project-img {
+    width: 100%;
+    max-height: 50%;
+    margin-bottom: 10px;
 }
 
 .archive-area {
@@ -724,5 +734,8 @@ border-bottom:2px solid #f1f1f1;
     }
     .section-heading i {
         transform: rotate(360deg);
+    }
+    .section-heading {
+        background-image: none;
     }
 }
