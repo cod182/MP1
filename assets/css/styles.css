@@ -662,21 +662,20 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .faves-area {
-    margin-bottom: 50px;   
-}
-
-.faves-bg {
-    background-image: url(../images/latest-projects/animation.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-image: url(https://www.seekpng.com/png/full/378-3789749_login-whisp-illustration.png);
+    background-position: center;    
     background-repeat: no-repeat;
-    border-radius: 10px;
+    background-size: cover;
+    height: 100%;
+}
+.archive-area {
+    background-image: url(https://www.seekpng.com/png/full/378-3789749_login-whisp-illustration.png);
+    background-position: center;    
+    height: 100%;
 }
 
 .title-box {
-    /* background-color: #845EC2; */
-    background: linear-gradient(to right, #845EC2, rgba(132, 94, 194, 0.295));
+    background-color: #845EC2;
     border-radius: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -736,11 +735,6 @@ border-bottom:2px solid #f1f1f1;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
-
-.archive-area {
-    margin-bottom: 50px;
-}
-
 
 @media screen and (max-width:767px) {
     .section-heading {
