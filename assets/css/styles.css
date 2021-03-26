@@ -669,7 +669,7 @@ border-bottom:2px solid #f1f1f1;
 }
 
 /* ==========================================================================================================
-    =========================================================================================Animation Page======= */
+    =========================================================================================Archive Pages======= */
 
 .portfolio-heading {
     font-family: roboto, "open-sans";
@@ -684,13 +684,11 @@ border-bottom:2px solid #f1f1f1;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    margin-left: 5px;
 }
 .archive-area {
     background-image: url(../images/animation-page/background-animation.png);
     background-position: center;    
     height: 100%;
-    margin-left: 5px;
 }
 
 .title-box {
