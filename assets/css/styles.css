@@ -628,6 +628,7 @@ border-bottom:2px solid #f1f1f1;
 /* Footer */
 
 .footer {
+    font-family: lato, "open-sans";
     height: 120px;
     text-align: center;
     background-color: darkslategrey;
@@ -666,6 +667,10 @@ border-bottom:2px solid #f1f1f1;
 
 .instagram {
     height: 80px;
+}
+
+.copy {
+    font-weight: bold;
 }
 
 /* ==========================================================================================================
@@ -730,6 +735,11 @@ border-bottom:2px solid #f1f1f1;
 .project h3 {
     font-family: roboto, "open-sans";
     font-size: 180%;
+    color: #845EC2;
+}
+
+.project p {
+    font-family: lato, "open-sans";
 }
 
 .project-img {
@@ -771,3 +781,28 @@ border-bottom:2px solid #f1f1f1;
     }
 }
 
+/* ==========================================================================================================
+    =========================================================================================404 Page======= */
+
+.error-content {
+    margin: 200px auto;
+    text-align: center;
+}
+
+.error-content h2 {
+    font-family: roboto, "open-sans";
+    color: #845EC2;
+    font-size: 300%;
+}
+
+.error-content p {
+    font-family: roboto, "open-sans";
+    color: #845EC2;
+    font-size: 150%;
+}
+
+.error-content i {
+    color: #FF9671;
+    font-size: 500%;
+    margin: 30px 0;
+}
