@@ -207,6 +207,13 @@ button {
     height: 100vh;
 }
 
+.hero-bg {
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50%, 50%;
+}
+
 .hero-image {
     background-image: url(../images/site-image.png);
     background-position: center;
@@ -236,11 +243,9 @@ button {
     ====================================About Section======= */
 
 .about-section {
-    padding-top: 100px;
+    padding: 10% 5% 5% 5%;
     width: 100vw;
     min-height: 100vh;
-    padding: 0;
-    margin: 0;
     background-image: url(../images/about-skills/anim-skills/image-1.png);
     background-attachment: fixed;
     background-position: center;
@@ -248,52 +253,81 @@ button {
     width: 100%;
     min-height: 100vh;
     position: relative;
-    padding: 0;
-    margin: 0;
-    display: block;       
+    margin: 0;      
+}
+
+.about-text-box {
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .about-heading {
     text-align: center;
     color: #845EC2;
     margin-top: 2%;
-    margin-bottom: 2%;
 }
+
+.about-content {
+    margin: 0 auto;
+}
+
 .about-text {
     font-family: "lato", "open-sans";
-    font-size: larger;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.664);
-    border-radius: 20px;
-    top: 50%;
-    left: 50%;
-    margin: 100px auto;
-    padding: 20px;
 }
 
-.owner {
-    width: 150px;
+.testi-box {
+    min-height: 200px;
+    max-height: 350px;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 10px;
+    margin: 5px auto;
+    text-align: center;
+    padding:10px;
+}
+.testi-heading {
+    text-align: center;
+    color: #845EC2;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70vw;
 }
 
-.about-logo {
-    margin: auto;
+.testi-img {
+    width: 70px;
+    height: 70px;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
-.about-logo img{
-    max-height: 130px;
-    max-width: 100%;
-    filter:opacity(80%);
-    margin-bottom: 50px;
-    vertical-align: middle;
+.testi-text {
+    text-align: center;
+    color: #845EC2;
+    font-family: lato, "open-sans'";
 }
 
 @media only screen and (max-width:768px) {
     .about-section {
         background-attachment: unset;
     }
-    .about-text {
-        width: 80vw;
+    .testi-heading {
+        margin-top: 5%;
     }
+    .testi-img {
+        float: left;
+        margin: 10% auto 10% auto;
+        width: 100px;
+        height: 100px;
+    }
+    .testi-text {
+        max-width: 70%;
+        float: right;
+    }
+
+    
 }
 /* =====================================================
     ====================================Latest Projects Section======= */
