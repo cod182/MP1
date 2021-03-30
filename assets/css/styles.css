@@ -201,7 +201,7 @@ button {
 }
 
 .hvr-bounce-to-top:before {
-    background: #845EC2;
+    background: rgba(132, 94, 194, 0.699);
     border-radius: 10px;
 }
 
@@ -289,6 +289,13 @@ button {
     text-align: center;
 }
 
+.testi-wrapper {
+    border: 1px solid #845EC2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
 .testi-box {
     min-height: 200px;
     max-height: 350px;
@@ -330,8 +337,8 @@ button {
     .testi-img {
         float: left;
         margin: 10% auto 10% auto;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
     .testi-text {
         max-width: 70%;
@@ -427,15 +434,15 @@ HTML CSSResult Skip Results Iframe
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transition: 1s;
+    -webkit-transition: 1.5s;
     -webkit-transform-style: preserve-3d;
-    -moz-transition: 1s;
+    -moz-transition: 1.5s;
     -moz-transform-style: preserve-3d;
-    -o-transition: 1s;
+    -o-transition: 1.5s;
     -o-transform-style: preserve-3d;
-    -ms-transition: 1s;
+    -ms-transition: 1.5s;
     -ms-transform-style: preserve-3d;
-    transition: 1s;
+    transition: 1.5s;
     transform-style: preserve-3d;
 }
 
@@ -486,6 +493,11 @@ HTML CSSResult Skip Results Iframe
     height: 70vh;
 }
 
+.modal-body--full {
+    height: 100%;
+    width: 100%;
+}
+
 .modal-title h2 {
     text-align: center;
 }
@@ -512,6 +524,10 @@ border-bottom:2px solid #f1f1f1;
     width:100%;
     border: 1px solid grey;
     margin:2px;
+}
+
+.img-gal--full {
+    width: 100%;
 }
 
 #box-mar {

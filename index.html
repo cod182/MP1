@@ -70,7 +70,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row g-0 ">
+                    <div class="row g-0 testi-wrapper">
                             <div class="col-12">
                                 <h2 class="testi-heading">Testimonials</h2>
                                 <hr class="line-break line-break--short line-break--purple">
@@ -200,7 +200,7 @@
                                                 <h4 class="card-title">Canada Trip 2019</h4>
                                                 <p class="card-text">A selection of landscape pictures taken during a trip to Canada.<br>
                                                     <!-- link to modal take from bootstrap -->
-                                                    <button class="block" data-bs-toggle="modal" data-bs-target="#staticBackdrop" aria-label="View More Photos"><i class="more-photos fas fa-plus-circle exp-modal"></i></button></p>
+                                                    <button class="block" data-bs-toggle="modal" data-bs-target="#photographymodal" aria-label="View More Photos"><i class="more-photos fas fa-plus-circle exp-modal"></i></button></p>
                                                 <div class="row">
                                                     <div class="col-12 bottom">
                                                         <button class="block btn btn-primary" aria-label="View More Photography Projects"><a href="photography.html">View Portfolio</a></button>
@@ -371,8 +371,9 @@
         </button>
     </div>
 
-    <!-- Modal from Bootstrap as a starting point-->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<!-- Modal from Bootstrap as a starting point-->
+    <!-- Modal Gallyer for Photography -->
+        <div class="modal fade" id="photographymodal" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="photographymodalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over" id="modal-bg">
                     <div class="modal-body modal-over">
@@ -384,57 +385,57 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-1.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo1large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-1.jpg" alt="Lake Lousie, Canada 1">
-                                </a>
+                                </button>
                                 <p>Lake Louise, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-2.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo2large" aria-label="View More Photos">
                                  <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-2.jpg"alt="A view of open water">
-                                </a>
+                                </button>
                                 <p>Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-3.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo3large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-3.jpg"alt="Mountains with blue sky">
-                                </a>
+                                </button>
                                 <p>Mountains, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-4.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo4large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-4.jpg"alt="Mountains reflected in water">
-                                </a>
+                                </button>
                                 <p>Mountain Reflections, Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-5.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo5large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-5.jpg"alt="Lake Louise, Canada 2">
-                                </a>
+                                </button>
                                 <p>Lake Louise, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-6.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo6large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-6.jpg"alt="a snowy mountain">
-                                </a>
+                                </button>
                                 <p>Snowy Mountain, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-7.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo7large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-7.jpg"alt="A moose in a field">
-                                </a>
+                                </button>
                                 <p>Wild Moose, Jasper</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-8.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo8large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-8.jpg"alt="Bear on rocks">
-                                </a>
+                                </button>
                                 <p>Fishing Bear, Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
-                                <a target="_blank" href="assets/images/latest-projects/canada/canada-9.jpg">
+                                <button data-bs-toggle="modal" data-bs-target="#photo9large" aria-label="View More Photos">
                                     <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-9.jpg"alt="Canadian Ice Fields">
-                                </a>
+                                </button>
                                 <p>Ice Fields, Banff</p>
                             </div>
                         </div> 
@@ -442,6 +443,237 @@
                 </div>      
             </div>
         </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 1 -->
+        <div class="modal fade" id="photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo1LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Lake Louise, Banff</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-1.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-1.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 1 -->
+        <div class="modal fade" id="photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo1LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Lake Louise, Banff</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-1.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-1.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 2 -->
+        <div class="modal fade" id="photo2large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo2LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Vancouver Island</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-2.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-2.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 3 -->
+        <div class="modal fade" id="photo3large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo3LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Mountains, Banff</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-3.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-3.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 4 -->
+        <div class="modal fade" id="photo4large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo4LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Mountain Reflections, Vancouver Islands</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-4.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-4.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 5 -->
+        <div class="modal fade" id="photo5large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo5LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Lake louise, Banff</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-5.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-5.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 6 -->
+        <div class="modal fade" id="photo6large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo6LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Snowy Mountain, Banff</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-6.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-6.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 7 -->
+        <div class="modal fade" id="photo7large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo7LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Wild Moouse, Jasper</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-7.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-7.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 8 -->
+        <div class="modal fade" id="photo8large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo8LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Fishy Bear, Vancouver Island</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-8.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-8.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+<!-- Full size Modal Pictures -->
+        <!-- Photo 9 -->
+        <div class="modal fade" id="photo9large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Photo9LargeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
+                <div class="modal-content modal-over modal-bg-dark" id="modal-bg">
+                    <div class="modal-body modal-body--full modal-over">
+                        <div class="container modal-over">
+                            <div class="row">
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close window"></button>
+                                <h1 class="h1-gal purple roboto">Ice Fiels, Banff</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 img-responsive text-center">
+                                <a target="_blank" href="assets/images/latest-projects/canada/canada-9.jpg">
+                                    <img class="img-gal" src="assets/images/latest-projects/canada/canada-9.jpg" alt="Lake Lousie, Canada 1">
+                                </a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+        </div>
+        
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
