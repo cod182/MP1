@@ -772,8 +772,10 @@ border-bottom:2px solid #f1f1f1;
     color: #845EC2;
 }
 
-.project p {
+.project-text {
     font-family: lato, "open-sans";
+    text-align: center;
+    font-weight: 500;
 }
 
 .project-img {
