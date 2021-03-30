@@ -94,6 +94,7 @@ button {
     transition: ease-in-out .4s;
     padding: 0;
 }
+
 .btn--top:hover a,
 .btn--top a i:hover,
 .btn--top a i:active,
@@ -112,6 +113,10 @@ button {
 .btn--top a i:focus,
 .btn--top a i:active:focus {
     color: black;
+}
+
+.btn--margin-top {
+    margin-top: 20px;
 }
 
 /* =====================================================
@@ -754,8 +759,7 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .project {
-    min-height: 300px;
-    max-height: 600px;
+    min-height: 200px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.452);
     border-radius: 10px;
@@ -785,7 +789,6 @@ border-bottom:2px solid #f1f1f1;
     margin: 0px auto 10px auto;
     display: block;
 }
-
 
 .project-dropdown {
     padding: 0;
