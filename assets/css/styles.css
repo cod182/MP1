@@ -558,7 +558,7 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .contact-box {
-    background-color: rgba(102, 102, 102, 0.473);
+    background-color: #fff;
     border-radius: 20px;
     margin: 0 auto;
     padding: 20px;
@@ -568,11 +568,13 @@ border-bottom:2px solid #f1f1f1;
 
 .contact-title {
     color: #845EC2;
-    text-decoration: underline;
-    text-align: center;
+    text-transform: uppercase;
+    font-size:200%;
+    font-weight: bold;
+    text-align: left;
     margin-top: .5rem;
     margin-bottom: 10px;
-    font-size: x-large;
+
 }
 
 .contact-label {
@@ -582,10 +584,11 @@ border-bottom:2px solid #f1f1f1;
     margin: 10px 0 10px 0;
 }
 
-.input-field {
-    background-color: rgba(255, 255, 255, 0.664);
+.contact-input-field {
+    background-color: #fff;
+    border: 1px solid #845EC2;
     color: #845EC2;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 30px;
     width: 100%;
     display: block;
@@ -604,8 +607,9 @@ border-bottom:2px solid #f1f1f1;
 
 .input-message {
     background-color: rgba(255, 255, 255, 0.664);
+    border: 1px solid #845EC2;
     color: #845EC2;
-    border-radius: 10px;
+    border-radius: 5px;
     min-height: 50%;
     width: 100%;
     margin: 10px 0 10px 0;
@@ -669,7 +673,7 @@ border-bottom:2px solid #f1f1f1;
     font-family: lato, "open-sans";
     height: 120px;
     text-align: center;
-    background-color: darkslategrey;
+    background-color: #fff;
 }
 
 .footer i {
@@ -680,6 +684,7 @@ border-bottom:2px solid #f1f1f1;
 .footer a {
         text-decoration: none;
         color: #845EC2;
+        font-size: 300%;
 }
 
 .footer a:hover, i:hover,
@@ -735,7 +740,8 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .title-box {
-    background-color: #845EC2;
+
+    background: linear-gradient(to right, rgb(213, 191, 247), #845EC2);
     border-radius: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -747,6 +753,7 @@ border-bottom:2px solid #f1f1f1;
     color: #FF9671;
     text-align: center;
     font-size: 200%;
+    font-weight: bolder;
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
     margin: 20px auto;
@@ -788,22 +795,6 @@ border-bottom:2px solid #f1f1f1;
     max-height: 60%;
     margin: 0px auto 10px auto;
     display: block;
-}
-
-.project-dropdown {
-    padding: 0;
-    height: auto;
-    margin-top: 5px;
-    flex: 1 1 auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
 }
 
 @media screen and (max-width:767px) {
