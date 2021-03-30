@@ -200,6 +200,10 @@ button {
     margin:0 1px 0 1px;
 }
 
+.hvr-bounce-to-top:before {
+    background: #845EC2;
+    border-radius: 10px;
+}
 
 /* =====================================================
     ====================================Hero Image======= */
@@ -212,6 +216,9 @@ button {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 50%, 50%;
+    animation-name: hero-bg-fade;
+    animation-duration: 3s;
+    animation-direction: normal;
 }
 
 .hero-image {
@@ -239,21 +246,25 @@ button {
     }
 }
 
+@keyframes hero-bg-fade {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
 /* =====================================================
     ====================================About Section======= */
 
 .about-section {
     padding: 10% 5% 5% 5%;
     width: 100vw;
-    min-height: 100vh;
     background-image: url(../images/about-skills/anim-skills/image-1.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    margin: 0;      
 }
 
 .about-text-box {
@@ -325,15 +336,13 @@ button {
     .testi-text {
         max-width: 70%;
         float: right;
-    }
-
-    
+    }    
 }
 /* =====================================================
     ====================================Latest Projects Section======= */
 
 .latest-projects {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -511,32 +520,29 @@ border-bottom:2px solid #f1f1f1;
 /* =====================================================
     ====================================Contact Section======= */
 
-.contact {
+.contact-heading {
+    color: #845EC2;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 5% 5% 5% 5%;
+    width: 100vw;
     background-image: url(../images/contact-image.jpg);
     background-color: rgb(54, 83, 212);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    position: relative;    
-}
-
-.contact-heading {
-    color: #845EC2;
-    text-align: center;
-    margin-top: 100px;
 }
 
 .contact-box {
-    width: 50vw;
     background-color: rgba(102, 102, 102, 0.473);
     border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     padding: 20px;
+    min-width: 50vw;
+    max-width: 80vw;
 }
 
 .contact-title {

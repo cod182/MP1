@@ -8,6 +8,7 @@
     <link rel="icon" href="assets/images/site-icon/site-icon-16x16.png" type="image/png" sizes="16x16">
     <link rel="icon" href="assets/images/site-icon/site-icon-32x32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="assets/images/site-icon/site-icon-96x96.png" type="image/png" sizes="96x96">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/5351067769.js" crossorigin="anonymous"></script>
@@ -24,25 +25,17 @@
             <div class="collapse navbar-collapse navbar-mr" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" aria-current="Home Page" href="index.html">Home</a>
+                <a class="nav-link hvr-bounce-to-top" aria-current="Home Page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link hvr-bounce-to-top" href="#about">About</a>
                 </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Projects
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item item-proj" href="https://8000-violet-spider-jdkwuys2.ws-eu03.gitpod.io/index.html#latest-projects">Latest Projects</a></li>
-                    <li><a class="dropdown-item" href="videography.html">Videography</a></li>
-                    <li><a class="dropdown-item" href="photography.html">Photography</a></li>
-                    <li><a class="dropdown-item" href="editing.html">Editing</a></li>
-                    <li><a class="dropdown-item" href="animation.html">Animation</a></li>
-                </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link hvr-bounce-to-top" href="#latest-projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link hvr-bounce-to-top" href="#contact">Contact</a>
                 </li>
             </ul>
             </div>
@@ -51,7 +44,7 @@
 
     </header>
 <!-- Hero Image -->
-    <section class="container-fluid hero-bg ">
+    <section class="container-fluid hero-bg">
         <div class="row">
             <div class="col-12">
                 <div class="hero-image" aria-label="Whale Hello Logo"></div>
@@ -84,7 +77,7 @@
                             </div>
                             <div class="col-xs-12 col-md-5 col-lg-3 testi-box">
                                 <img class="testi-img" src="../assets/images/logos/logo-5.png" alt="Mi Little Pad Logo">
-                                <p class="testi-heading">Mi Little Pad</p>
+                                <p class="testi-heading">- Mi Little Pad</p>
                                 <hr class="line-break line-break--purple line-break--short">
                                 <p class="testi-text">
                                     The guys did a great job with the videos. The kids love them!
@@ -92,7 +85,7 @@
                             </div>
                             <div class="col-xs-12 col-md-5 col-lg-3 testi-box">
                                 <img class="testi-img" src="../assets/images/logos/logo-2.png" alt="Cardiff Canine Citizens Logo">
-                                <p class="testi-heading">Cardiff Canine Citizens</p>
+                                <p class="testi-heading">- Cardiff Canine Citizens</p>
                                 <hr class="line-break line-break--purple line-break--short">
                                 <p class="testi-text">
                                     Very professional. Captured exactly what I needed to show of my amazing training classes.
@@ -100,7 +93,7 @@
                             </div>
                             <div class="col-xs-12 col-md-5 col-lg-3 testi-box">
                                 <img class="testi-img" src="../assets/images/logos/logo-4.png" alt="Kids With Bricks Logo">
-                                <p class="testi-heading">Kids With Bricks Ltd</p>
+                                <p class="testi-heading">- Kids With Bricks Ltd</p>
                                 <hr class="line-break line-break--purple line-break--short">
                                 <p class="testi-text">
                                     The guys did a great job with the videos. The kids love them!
@@ -259,84 +252,86 @@
     </section> 
 <!-- Contact Section -->
     <section class="container-fluid p-0 m-0 g-x" id="contact">
-        <div class="contact">
-            <div class="row p-0 m-0 g-x">
-                <div class="col-12">
-                    <h1 class="contact-heading">Want to work together?</h1>
+        <div class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <h1 class="contact-heading">Lets work together!</h1>
                 </div>
             </div>
-            <div class="row p-0 m-0 g-x">
-                <form method="" action="" class="container contact-box">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="contact-title">Fill out the details below</h2>
-                            </div> 
-                    </div>
+            <div class="container contact-box">
+                <div class="row p-0 m-0 g-x">
+                    <form method="" action="">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="contact-title">Fill out the details below</h2>
+                                </div> 
+                        </div>
 
-                    <div class="row">
-                        <div class="col-xs-12 col-lg-3">
-                            <label for="name" class="contact-label">Name:</label>
-                        </div>
-                        <div class="col-xs-12 col-lg-9">
-                            <input type="text" placeholder="Name Here" id="name" name="name" class="input-field" required>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xs-12 col-lg-3">
-                            <label for="email" class="contact-label">Email:</label>
-                        </div>
-                        <div class="col-xs-12 col-lg-9">
-                            <input type="email" placeholder="Email Address Here" id="email" name="email" class="input-field" required>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xs-12 col-lg-3">
-                            <label for="phone" class="contact-label">Contact No.</label>
-                        </div>
-                        <div class="col-xs-12 col-lg-9">
-                            <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xs-12 col-lg-3">
-                            <label for="project" class="contact-label">Project Type:</label>
-                        </div>
-                        <div class="col-xs-12 col-lg-9">
-                            <select id="project" name="project" class="input-field" required>
-                                <option selected disabled>Project Type</option>
-                                <option value="Animation">Animation</option>
-                                <option value="Editing">Editing</option>
-                                <option value="Photography">Photography</option>
-                                <option value="Videography">Videography</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xs-12 col-lg-3">
-                            <label for="message" class="contact-label">Project Description:</label>
-                        </div>
-                        <div class="col-xs-12 col-lg-9 input-mess-sm">
-                            <textarea id="message" name="message" class="input-message" rows="5" cols="35" required>Message Here</textarea>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="contact-input">
-                                <button class="btn btn-primary" aria-label="Send Message Button">Send Message!</button>
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-3">
+                                <label for="name" class="contact-label">Name:</label>
+                            </div>
+                            <div class="col-xs-12 col-lg-9">
+                                <input type="text" placeholder="Name Here" id="name" name="name" class="input-field" required>
                             </div>
                         </div>
-                    </div>
-                </form>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-3">
+                                <label for="email" class="contact-label">Email:</label>
+                            </div>
+                            <div class="col-xs-12 col-lg-9">
+                                <input type="email" placeholder="Email Address Here" id="email" name="email" class="input-field" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-3">
+                                <label for="phone" class="contact-label">Contact No.</label>
+                            </div>
+                            <div class="col-xs-12 col-lg-9">
+                                <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number Here" id="phone" name="phone" class="input-field">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-3">
+                                <label for="project" class="contact-label">Project Type:</label>
+                            </div>
+                            <div class="col-xs-12 col-lg-9">
+                                <select id="project" name="project" class="input-field" required>
+                                    <option selected disabled>Project Type</option>
+                                    <option value="Animation">Animation</option>
+                                    <option value="Editing">Editing</option>
+                                    <option value="Photography">Photography</option>
+                                    <option value="Videography">Videography</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-3">
+                                <label for="message" class="contact-label">Project Description:</label>
+                            </div>
+                            <div class="col-xs-12 col-lg-9 input-mess-sm">
+                                <textarea id="message" name="message" class="input-message" rows="5" cols="35" required>Message Here</textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="contact-input">
+                                    <button class="btn btn-primary" aria-label="Send Message Button">Send Message!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-
+<!-- Footer Section -->
     <footer>
         <div class="container-fluid footer">
             <div class="row">
