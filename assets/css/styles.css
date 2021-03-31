@@ -544,21 +544,22 @@ border-bottom:2px solid #f1f1f1;
 .contact-heading {
     color: #845EC2;
     text-align: center;
+    margin-top: 80px;
 }
 
 .contact-section {
     padding: 5% 5% 5% 5%;
     width: 100vw;
-    background-image: url(../images/contact-image.jpg);
+    background-image: url(../images/contact-bg.gif);
     background-color: rgb(54, 83, 212);
-    background-attachment: fixed;
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .contact-box {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.651);
     border-radius: 20px;
     margin: 0 auto;
     padding: 20px;
@@ -633,8 +634,8 @@ border-bottom:2px solid #f1f1f1;
         min-width: 80vw;
         margin-top: 50px;
     }
-    .contact {
-        background-attachment: unset;
+    .contact-section {
+        background-image: url(../images/contact-bg-mobile.png);
     }
 }
 
@@ -643,7 +644,7 @@ border-bottom:2px solid #f1f1f1;
         min-width: 80vw;
         margin-top: 50px;
     }
-    .contact {
+    .contact-section {
         min-height: 120vh;
     }
 }
@@ -653,7 +654,7 @@ border-bottom:2px solid #f1f1f1;
         min-width: 80vw;
         margin-top: 50px;
     }
-    .contact {
+    .contact-section {
         min-height: 140vh;
     }
 }
@@ -663,7 +664,7 @@ border-bottom:2px solid #f1f1f1;
         min-width: 80vw;
         margin-top: 50px;
     }
-    .contact {
+    .contact-section {
         min-height: 160vh;
     }
 }
@@ -799,19 +800,27 @@ border-bottom:2px solid #f1f1f1;
     display: block;
 }
 
+.project-img-full {
+    margin: 0px auto 10px auto;
+    display: block;
+}
+
 @media screen and (max-width:767px) {
     .section-heading {
         writing-mode: unset;
         transform: rotate(360deg);
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 170%;
+        font-size: 200%;
     }
     .section-heading i {
         transform: rotate(360deg);
     }
     .section-heading {
         background-image: none;
+    }
+    .title-box {
+        background: linear-gradient(to bottom, rgb(213, 191, 247), #845EC2);
     }
 }
 
