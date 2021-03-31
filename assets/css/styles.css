@@ -495,7 +495,7 @@ HTML CSSResult Skip Results Iframe
     ====================================MODAL======= */
 
 .modal-body {
-    height: 70vh;
+    min-height: 30vh;
 }
 
 .modal-body--full {
