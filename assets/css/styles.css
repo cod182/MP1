@@ -508,7 +508,7 @@ HTML CSSResult Skip Results Iframe
 }
 
 #modal-bg {
-    background: rgba(255, 255, 255, 0.774);
+    background: rgba(201, 201, 201, 0.774);
     border-radius: 20px;
     overflow: visible;
 }
@@ -541,30 +541,29 @@ border-bottom:2px solid #f1f1f1;
 /* =====================================================
     ====================================Contact Section======= */
 
-.contact-heading {
-    color: #845EC2;
-    text-align: center;
-    margin-top: 80px;
+.contact-section {
+    background-color: #131674;
+    width: 100vw;
+    padding: 5%;
 }
 
-.contact-section {
-    padding: 5% 5% 5% 5%;
-    width: 100vw;
+.contact-image {
     background-image: url(../images/contact-bg.gif);
-    background-color: rgb(54, 83, 212);
-
+    background-color: #131674;
+    height: 400px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    margin: auto 0;
 }
 
 .contact-box {
-    background-color: rgba(255, 255, 255, 0.651);
-    border-radius: 20px;
+    background-color: #fff;
+    border-radius: 10px;
     margin: 0 auto;
     padding: 20px;
-    min-width: 50vw;
-    max-width: 80vw;
+    width: 40vw;
+    min-height: 40vh;
 }
 
 .contact-title {
@@ -629,13 +628,25 @@ border-bottom:2px solid #f1f1f1;
     color: #845EC2;
 }
 
+@media only screen and (max-width:992px) {
+    .contact-image {
+        order: 6 !important;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width:768px) {
     .contact-box {
         min-width: 80vw;
         margin-top: 50px;
     }
-    .contact-section {
-        background-image: url(../images/contact-bg-mobile.png);
+    .contact-image {
+        width: 100vw;
+        order: 1 !important;
+    }
+    .contact-image {
+        order: 6 !important;
+        width: 100%;
     }
 }
 
@@ -644,9 +655,6 @@ border-bottom:2px solid #f1f1f1;
         min-width: 80vw;
         margin-top: 50px;
     }
-    .contact-section {
-        min-height: 120vh;
-    }
 }
 
 @media only screen and (max-width:360px) {
@@ -654,18 +662,12 @@ border-bottom:2px solid #f1f1f1;
         min-width: 80vw;
         margin-top: 50px;
     }
-    .contact-section {
-        min-height: 140vh;
-    }
 }
 
 @media only screen and (max-width:320px) {
     .contact-box {
         min-width: 80vw;
         margin-top: 50px;
-    }
-    .contact-section {
-        min-height: 160vh;
     }
 }
 /* Footer */
