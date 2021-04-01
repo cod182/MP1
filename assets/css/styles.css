@@ -39,17 +39,36 @@
 }
 
 /* =====================================================
-    ====================================Fonts======= */
+    ====================================TEXT======= */
 
 .roboto {
     font-family: roboto, "open-sans";
 }
 
-/* =====================================================
-    ====================================Font Colours======= */
-
 .purple {
     color: #845EC2;
+}
+.text-xl {
+    font-size: x-large !important;
+}
+.text-larger {
+    font-size: larger !important;
+}
+
+.text-large {
+    font-size: large !important;
+}
+
+.text-medium {
+    font-size: medium !important;
+}
+
+.text-small {
+    font-size: smaller !important;
+}
+
+.text-smaller {
+    font-size: smaller !important;
 }
 
 /* =====================================================
@@ -799,6 +818,7 @@ border-bottom:2px solid #f1f1f1;
     color: #845EC2;
     text-align: center;
     margin: 5px auto;
+    min-height: 80px;
 }
 
 .project-text {
@@ -809,15 +829,23 @@ border-bottom:2px solid #f1f1f1;
 
 .project-img {
     min-width: 80%;
-    max-width: 100%;
-    max-height: 60%;
-    margin: 0px auto 10px auto;
+    max-width: 86%;
+    max-height: 55%;
+    margin: 0px auto 0px auto;
     display: block;
 }
 
 .project-img-full {
     margin: 0px auto 10px auto;
     display: block;
+}
+
+.project-vid {
+    max-width: 65%;
+    min-height: 150px;
+    max-height: 150px;
+    display: block;
+    margin: auto;
 }
 
 @media screen and (max-width:767px) {
