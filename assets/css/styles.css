@@ -318,11 +318,18 @@ button {
     max-width: 70vw;
 }
 
-.testi-img {
-    width: 70px;
-    height: 70px;
-    margin: 5px auto;
+.testi-img-circle {
+    height: 75px;
+    width: 75px;
     border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.testi-img {
+    width: 63px;
+    height: 63px;
+    margin: 4px 4px;
     border-radius: 50%;
 }
 
@@ -587,10 +594,11 @@ border-bottom:2px solid #f1f1f1;
     font-weight: bold;
     font-size: large;
     margin: 10px 0 10px 0;
+    max-width: 100%;
 }
 
 .contact-input-field {
-    background-color: #fff;
+    background-color: rgb(161, 161, 161);
     border: 1px solid #845EC2;
     color: #845EC2;
     border-radius: 5px;
@@ -611,7 +619,7 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .input-message {
-    background-color: rgba(255, 255, 255, 0.664);
+    background-color: rgb(161, 161, 161);
     border: 1px solid #845EC2;
     color: #845EC2;
     border-radius: 5px;
