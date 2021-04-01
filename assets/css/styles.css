@@ -471,13 +471,18 @@ HTML CSSResult Skip Results Iframe
 }
 
 .card {
-    height: 600px;
+    height: 700px;
 }
 
 .latest-icon {
     font-size: 500%;
     color: #845EC2;
     margin-top: 250px;
+}
+
+.latest-height {
+    height: 36%;
+    width: 91%;
 }
 
 .more-photos {
