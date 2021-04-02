@@ -45,6 +45,14 @@
     font-family: roboto, "open-sans";
 }
 
+.lato {
+    font-family: lato, "open-sans";
+}
+
+.white {
+    color: #fff;
+}
+
 .purple {
     color: #845EC2;
 }
@@ -294,7 +302,6 @@ button {
 .about-text-box {
     background-color: rgba(255, 255, 255, 0.664);
     border-radius: 20px;
-    margin: 0 auto;
     padding: 20px;
 }
 
@@ -310,7 +317,13 @@ button {
 
 .about-text {
     font-family: "lato", "open-sans";
-    text-align: center;
+    text-align: left;
+}
+
+.about-video {
+    margin: auto 0;
+    width: 100%;
+    height: 100%;
 }
 
 .testi-wrapper {
@@ -346,9 +359,9 @@ button {
 }
 
 .testi-img {
-    width: 63px;
-    height: 63px;
-    margin: 4px 4px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
     border-radius: 50%;
 }
 
@@ -365,11 +378,9 @@ button {
     .testi-heading {
         margin-top: 5%;
     }
-    .testi-img {
+    .testi-img-circle {
         float: left;
-        margin: 10% auto 10% auto;
-        width: 80px;
-        height: 80px;
+        margin: auto 0;
     }
     .testi-text {
         max-width: 70%;
@@ -507,8 +518,8 @@ HTML CSSResult Skip Results Iframe
 }
 
 .latest-height {
-    height: 36%;
-    width: 91%;
+    height: 30%;
+    width: 100%;
 }
 
 .more-photos {
