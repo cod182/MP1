@@ -452,6 +452,19 @@ button {
         float: right;
     }    
 }
+
+@media only screen and (max-width:320px) {
+.about-heading h1 {
+        font-size: 294% !important;
+        margin-top: 80px;
+    }
+.about-heading p {
+    font-size: 100% !important;
+}
+.about-text-box {
+    margin-bottom: 15px;
+}
+}
 /* =====================================================
     ====================================Latest Projects Section======= */
 
@@ -469,8 +482,6 @@ button {
 }
 
 HTML CSSResult Skip Results Iframe
-
-/* FontAwesome for working BootSnippet*/
 
 #team .card {
     border: none;
@@ -597,6 +608,12 @@ HTML CSSResult Skip Results Iframe
 .more-photos:active,
 .more-photos:active:focus {
     color: #FF9671;
+}
+
+@media only screen and (max-width:320px){
+    .card {
+        height:500px;
+    }
 }
 /* =====================================================
     ====================================MODAL======= */
