@@ -412,7 +412,6 @@ button {
     color: #845EC2;
     margin-left: auto;
     margin-right: auto;
-    max-width: 70vw;
 }
 
 .testi-img-circle {
@@ -436,7 +435,7 @@ button {
     font-family: lato, "open-sans'";
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767px) {
     .about-section {
         background-attachment: unset;
     }
@@ -450,20 +449,28 @@ button {
     .testi-text {
         max-width: 70%;
         float: right;
+        margin-right:8%;
     }    
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (min-width:250px) and (max-width:767px) {
 .about-heading h1 {
         font-size: 294% !important;
         margin-top: 80px;
     }
 .about-heading p {
     font-size: 100% !important;
-}
+    }
 .about-text-box {
     margin-bottom: 15px;
-}
+    }
+.about-video {
+        width: 100%;
+        height: 100%;
+    }
+    .testimonials-heading {
+        font-size: 175%;
+    }
 }
 /* =====================================================
     ====================================Latest Projects Section======= */
@@ -610,7 +617,7 @@ HTML CSSResult Skip Results Iframe
     color: #FF9671;
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:768px){
     .card {
         height:500px;
     }
