@@ -11,7 +11,7 @@ The use will be to display and advertise the services offered by a Videographer/
 
 A deployed link to the site can be found [here](https://cod182.github.io/Milestone-Project-1/)
 
-![Preivew](assets/images/wireframes/site-image.png)
+![Preivew](assets/images/wireframes/site-responsive.png)
 
 
 # UX
@@ -62,12 +62,20 @@ Technical Capabilities
 ## Skeleton
 
 ### wireframes
-- [XS >576px](assets/images/wireframes/XS-Width-_576px375px.png)
-- [SM ≥576px](assets/images/wireframes/SM-Width-≥576px.png)
-- [MD ≥768px](assets/images/wireframes/MD-Width-≥768px.png)
-- [LG ≥992px](assets/images/wireframes/LG-Width-≥992px.png)
-- [XXL ≥1400px](assets/images/wireframes/XXL-Width-≥1400px.png)
 
+#### Original Wireframes
+- [XS >576px](assets/images/wireframes/original-wireframes/xs-width-_576px375px.png)
+- [SM ≥576px](assets/images/wireframes/original-wireframes/sm-width-≥576px.png)
+- [MD ≥768px](assets/images/wireframes/original-wireframes/md-width-≥768px.png)
+- [LG ≥992px](assets/images/wireframes/original-wireframes/lg-width-≥992px.png)
+- [XXL ≥1400px](assets/images/wireframes/original-wireframes/xxl-width-≥1400px.png)
+
+#### New Wireframes
+- [XS >576px](assets/images/wireframes/new-wireframes/xs-width-_576px375px.png)
+- [SM ≥576px](assets/images/wireframes/new-wireframes/sm-width-≥576px.png)
+- [MD ≥768px](assets/images/wireframes/new-wireframes/md-width-≥768px.png)
+- [LG ≥992px](assets/images/wireframes/new-wireframes/lg-width-≥992px.png)
+- [XXL ≥1400px](assets/images/wireframes/new-wireframes/xxl-width-≥1400px.png)
 
 ## Surface
 
