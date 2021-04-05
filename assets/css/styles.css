@@ -322,7 +322,7 @@ button {
 .about-section {
     padding: 10% 5% 5% 5%;
     width: 100vw;
-    background-image: url(../images/about-skills/anim-skills/image-1.png);
+    background-image: url(../images/about-bg.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -486,8 +486,6 @@ button {
 .about-video {
         width: 100%;
     }
-    .testimonials-heading {
-    }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -502,8 +500,6 @@ button {
     }
 .about-video {
         width: 100%;
-    }
-    .testimonials-heading {
     }
 }
 /* =====================================================
@@ -634,8 +630,13 @@ HTML CSSResult Skip Results Iframe
     margin-top: 250px;
 }
 
+.card-body {
+    margin: 0 auto;
+    height: 20%;
+    width: 100%;
+}
+
 .latest-height {
-    height: 30%;
     width: 100%;
 }
 
