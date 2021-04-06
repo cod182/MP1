@@ -25,25 +25,25 @@
                 <div class="collapse navbar-collapse navbar-mr" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link hvr-bounce-to-top" aria-current="Home Page" href="index.html">Home</a>
+                        <a class="nav-link hvr-bounce-to-top" aria-label="Home Page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link hvr-bounce-to-top" href="index.html#about">About</a>
+                        <a class="nav-link hvr-bounce-to-top" aria-label="about section" href="index.html#about">About</a>
                         </li>
                         <li class="nav-item dropdown">
                         <a class="nav-link hvr-bounce-to-top active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item item-proj" href="index.html#latest-projects">Latest Projects</a></li>
-                            <li><a class="dropdown-item" href="videography.html">Videography</a></li>
-                            <li><a class="dropdown-item" href="photography.html">Photography</a></li>
-                            <li><a class="dropdown-item" href="editing.html">Editing</a></li>
-                            <li><a class="dropdown-item active" href="animation.html">Animation</a></li>
+                            <li><a class="dropdown-item item-proj" href="index.html#latest-projects" aria-label="Home Page then Latest Projects section">Latest Projects</a></li>
+                            <li><a class="dropdown-item" href="videography.html" aria-label="videography Page">Videography</a></li>
+                            <li><a class="dropdown-item" href="photography.html" aria-label="photography Page">Photography</a></li>
+                            <li><a class="dropdown-item" href="editing.html" aria-label="editing Page">Editing</a></li>
+                            <li><a class="dropdown-item active" href="animation.html" aria-label="animation Page">Animation</a></li>
                         </ul>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link hvr-bounce-to-top" href="#contact">Contact</a>
+                        <a class="nav-link hvr-bounce-to-top" href="#contact" aria-label="contact section">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -185,7 +185,8 @@
                                 View Project!
                             </button>
                         </div>
-
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -234,8 +235,8 @@
                                     <label for="project" class="contact-label">Project Type:</label>
                                 </div>
                                 <div class="col-xs-12 col-lg-9">
-                                    <select id="project" name="project" class="contact-input-field" required>
-                                        <option selected disabled>Project Type</option>
+                                    <select id="project" name="project" class="contact-input-field" size="1" required>
+                                        <option selected disabled value="">Project Type</option>
                                         <option value="Animation">Animation</option>
                                         <option value="Editing">Editing</option>
                                         <option value="Photography">Photography</option>

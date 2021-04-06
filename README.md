@@ -122,6 +122,7 @@ Visual Design
 ## Technoogies used
 - HTML5
 - CSS3
+- Javascript
 - Bootstrap v5 beta 2
 - Hover 2.3.1
 - Google Chrome Dev tools for debugging
