@@ -148,7 +148,7 @@ button {
     font-size: 25px;
     color: #FF9671;
     transition: ease-in-out .4s;
-    padding: 0;
+    margin:auto;
 }
 
 .btn--top:hover a,
@@ -674,7 +674,7 @@ HTML CSSResult Skip Results Iframe
     text-align: center;
 }
 
-#modal-bg {
+.modal-bg {
     background: rgba(201, 201, 201, 0.774);
     border-radius: 20px;
     overflow: visible;
