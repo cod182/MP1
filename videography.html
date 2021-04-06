@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/5351067769.js" crossorigin="anonymous"defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous" defer></script>
+    <script type="text/javascript"src="assets/javascript/script.js"></script>
 </head>
 </head>
 <body>
@@ -24,7 +25,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse navbar-mr" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                         <a class="nav-link hvr-bounce-to-top" aria-label="Home Page" href="index.html">Home</a>
@@ -38,10 +39,10 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item item-proj" href="index.html#latest-projects" aria-label="Home Page then Latest Projects section">Latest Projects</a></li>
-                            <li><a class="dropdown-item" href="videography.html" aria-label="videography Page">Videography</a></li>
+                            <li><a class="dropdown-item active" href="videography.html" aria-label="videography Page">Videography</a></li>
                             <li><a class="dropdown-item" href="photography.html" aria-label="photography Page">Photography</a></li>
                             <li><a class="dropdown-item" href="editing.html" aria-label="editing Page">Editing</a></li>
-                            <li><a class="dropdown-item active" href="animation.html" aria-label="animation Page">Animation</a></li>
+                            <li><a class="dropdown-item" href="animation.html" aria-label="animation Page">Animation</a></li>
                         </ul>
                         </li>
                         <li class="nav-item">
@@ -68,17 +69,17 @@
         <div class="container-fluid">
             <div class="row faves-area p-md-2">
                 <div class="col-md-2 title-box">
-                    <h2 class="section-heading">Favourite Projects <i class="fas fa-heart"></i></h2>
+                    <h2 class="section-heading">Favourite <br class="d-sm-none d-md-inline">Projects <br class="d-sm-none d-md-inline"> <i class="fas fa-heart"></i></h2>
                 </div>
                 
-                <div class="col-md-10">
+                <div class="col-md-10 projects-wrapper">
                     <div class="row g-0">
                         <!-- Project 1 -->
                         <div class="col-md-3 col-sm-6 project">
                             <h3>Scotland 2020</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube-nocookie.com/embed/XHxI1Avsas4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject1" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube-nocookie.com/embed/XHxI1Avsas4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject1" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -86,8 +87,8 @@
                         <div class="col-md-3 col-sm-6 project">
                             <h3>Canada 2019</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube.com/embed/_5vJy0PHIFo" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject2" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube.com/embed/_5vJy0PHIFo" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject2" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -95,11 +96,11 @@
                         <div class="col-md-3 col-sm-6 project">
                             <h3 >Kenworthy Chiropractic</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <video class="project-vid" controls poster="assets/images/latest-projects/videography.png">
+                            <video class="img-fluid project-vid" controls poster="assets/images/latest-projects/videography.png">
                             <source  src="assets/video/latest-projects/kenworthy-chiropractic.mp4" type="video/mp4">
                                 Sorry, your browser does not support the video tag.
                             </video>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject3" aria-label="View Full project">
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject3" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -115,17 +116,17 @@
         <div class="container-fluid">
             <div class="row archive-area p-md-2">
                 <div class="col-md-2 title-box">
-                    <h2 class="section-heading">Archived Projects</h2>
+                    <h2 class="section-heading">Archived <br class="d-sm-none d-md-inline">Projects </h2>
                 </div>
                 
-                <div class="col-md-10">
+                <div class="col-md-10 projects-wrapper"">
                     <div class="row g-0">
                         <!-- Project 4 -->
                        <div class="col-md-3 col-sm-6 project">
                             <h3>CCC - P.A.L.S Information</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube.com/embed/MsHk8v9YeQk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject4" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube.com/embed/MsHk8v9YeQk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject4" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -133,8 +134,8 @@
                         <div class="col-md-3 col-sm-6 project">
                             <h3>CCC - Rii Active Workshop</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube.com/embed/S2zIPgqawzY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject5" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube.com/embed/S2zIPgqawzY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject5" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -142,8 +143,8 @@
                         <div class="col-md-3 col-sm-6 project">
                             <h3>CCC - Puppy Classes</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube.com/embed/vMU07euGpw8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject6" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube.com/embed/vMU07euGpw8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject6" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -151,8 +152,8 @@
                         <div class="col-md-3 col-sm-6 project">
                             <h3>CCC - Proprioception Workshops</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube.com/embed/RXSjGr-VFXI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject7" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube.com/embed/RXSjGr-VFXI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject7" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -160,8 +161,8 @@
                         <div class="col-md-3 col-sm-6 project">
                             <h3>CCC - Beginners and Basics</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube.com/embed/pyhKJU4IQxQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject8" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube.com/embed/pyhKJU4IQxQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject8" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -169,8 +170,8 @@
                         <div class="col-md-3 col-sm-6 project">
                             <h3>CCC -P.A.L.S. Nursery Classes</h3>
                             <hr class="line-break line-break line-break--short line-break--mb">
-                            <iframe class="img-fluid project-img" src="https://www.youtube.com/embed/AOu02f41M1g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn btn-primary btn--margin-top" type="button" data-bs-toggle="modal" data-bs-target="#vproject9" aria-label="View Full project">
+                            <iframe class="img-fluid project-vid" src="https://www.youtube.com/embed/AOu02f41M1g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn btn-primary btn--margin-top btn--border--blk" type="button" data-bs-toggle="modal" data-bs-target="#vproject9" aria-label="View Full project">
                                 View Project!
                             </button>
                         </div>
@@ -285,8 +286,8 @@
 <!--========================================MODALS========================================-->
     <!-- Modal from Bootstrap as a starting point-->
 <!-- PROJECT 1 MODAL -->
-        <div class="modal fade" id="vproject1" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable modal-over">
+        <div class="modal fade" id="vproject1" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable modal-over" role="document">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-over">
                         <div class="container modal-over">
@@ -295,18 +296,18 @@
                                 <h1 class="h1-gal purple roboto">
                                     Scotland 2020
                                 </h1>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/XHxI1Avsas4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
+                            </div> 
                             <div class="row">
                                 <p class="project-text">
                                     A trip to Scotland in 2020 summarised in 2 minutes.
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/XHxI1Avsas4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
@@ -322,18 +323,18 @@
                                 <h1 class="h1-gal purple roboto">
                                     Canada 2019
                                 </h1>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/_5vJy0PHIFo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
+                            </div> 
                             <div class="row">
                                 <p class="project-text">
                                     A trip to Canada in September 2019 lead to creating this short video of our trip. Featuring Vancouver Island, Banff National park, Jasper National Park and of course, bears! The scenery here is beautiful and I thoroughly recommend it.
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/_5vJy0PHIFo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
@@ -353,18 +354,18 @@
                                 </h1>
                                 </div>
                             <div class="row">
-                                <p class="project-text">
-                                    An ongoing partnership with Cardiff Canine Citizens to create taster videos of their 'Prickly Pooches' sessions
-                                </p>
+                                <div class="col-12 img-responsive text-center">
+                                    <video class="project-vid-full" controls poster="assets/images/latest-projects/videography.png">
+                                        <source  src="assets/video/latest-projects/kenworthy-chiropractic.mp4" type="video/mp4">
+                                            Sorry, your browser does not support the video tag.
+                                    </video>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <video class="img-fluid" controls poster="assets/images/latest-projects/videography.png">
-                                    <source  src="assets/video/latest-projects/kenworthy-chiropractic.mp4" type="video/mp4">
-                                        Sorry, your browser does not support the video tag.
-                            </video>
-                            </div>
+                                <div class="row">
+                                    <p class="project-text">
+                                        An ongoing partnership with Cardiff Canine Citizens to create taster videos of their 'Prickly Pooches' sessions
+                                    </p>
+                                </div>
                         </div> 
                     </div> 
                 </div>      
@@ -385,6 +386,11 @@
                                 </h1>
                                 </div>
                             <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/RXSjGr-VFXI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div> 
+                            <div class="row">
                                 <p class="project-text">
                                     An ongoing partnership with Cardiff Canine Citizens to create an informational video about their P.A.L.S Classes.
                                 </p>
@@ -393,11 +399,6 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/RXSjGr-VFXI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
@@ -417,16 +418,16 @@
                                 </h1>
                                 </div>
                             <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/S2zIPgqawzY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div> 
+                            <div class="row">
                                 <p class="project-text">
                                     An ongoing partnership with Cardiff Canine Citizens to create taster videos of their Rii Active Workshop.
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/S2zIPgqawzY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
@@ -444,18 +445,18 @@
                                     <br>
                                     Puppy Classes
                                 </h1>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/vMU07euGpw8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
+                            </div> 
                             <div class="row">
                                 <p class="project-text">
                                     An ongoing partnership with Cardiff Canine Citizens to create taster videos of their Puppy Classes.
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/vMU07euGpw8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
@@ -475,6 +476,11 @@
                                 </h1>
                                 </div>
                             <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/MsHk8v9YeQk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div> 
+                            <div class="row">
                                 <p class="project-text">
                                     An ongoing partnership with Cardiff Canine Citizens to create taster videos of their proprioception sessions
                                 </p>
@@ -483,11 +489,6 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/MsHk8v9YeQk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
@@ -507,16 +508,16 @@
                                 </h1>
                                 </div>
                             <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/pyhKJU4IQxQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div> 
+                            <div class="row">
                                 <p class="project-text">
                                     An ongoing partnership with Cardiff Canine Citizens to create taster videos of their beginners and basics classes.
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/pyhKJU4IQxQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
@@ -536,6 +537,11 @@
                                 </h1>
                                 </div>
                             <div class="row">
+                                <div class="col-12 img-responsive text-center">
+                                    <iframe class="project-vid-full" width="560" height="315" src="https://www.youtube.com/embed/AOu02f41M1g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div> 
+                            <div class="row">
                                 <p class="project-text">
                                     An ongoing partnership with Cardiff Canine Citizens to create an informational video about their P.A.L.S. Nursery Classes.
                                 </p>
@@ -544,11 +550,6 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 img-responsive text-center">
-                                <iframe class="img-fluid" height="315" src="https://www.youtube.com/embed/AOu02f41M1g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div> 
                     </div> 
                 </div>      
             </div>
