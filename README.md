@@ -116,6 +116,7 @@ Visual Design
 ### Features to be implemented
 
 - Mailing List sign up for project updates
+- Top of page button only appearing after hero image
 - Breakdown of gerneral costs for each service
 - Mail server connection for contact form
 

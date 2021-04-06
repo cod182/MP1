@@ -25,25 +25,25 @@
                 <div class="collapse navbar-collapse navbar-mr" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link hvr-bounce-to-top" aria-current="Home Page" href="index.html">Home</a>
+                        <a class="nav-link hvr-bounce-to-top" aria-label="Home Page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link hvr-bounce-to-top" href="index.html#about">About</a>
+                        <a class="nav-link hvr-bounce-to-top" aria-label="about section" href="index.html#about">About</a>
                         </li>
                         <li class="nav-item dropdown">
                         <a class="nav-link hvr-bounce-to-top active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item item-proj" href="index.html#latest-projects">Latest Projects</a></li>
-                            <li><a class="dropdown-item" href="videography.html">Videography</a></li>
-                            <li><a class="dropdown-item active" href="photography.html">Photography</a></li>
-                            <li><a class="dropdown-item" href="editing.html">Editing</a></li>
-                            <li><a class="dropdown-item" href="animation.html">Animation</a></li>
+                            <li><a class="dropdown-item item-proj" href="index.html#latest-projects" aria-label="Home Page then Latest Projects section">Latest Projects</a></li>
+                            <li><a class="dropdown-item" href="videography.html" aria-label="videography Page">Videography</a></li>
+                            <li><a class="dropdown-item" href="photography.html" aria-label="photography Page">Photography</a></li>
+                            <li><a class="dropdown-item" href="editing.html" aria-label="editing Page">Editing</a></li>
+                            <li><a class="dropdown-item active" href="animation.html" aria-label="animation Page">Animation</a></li>
                         </ul>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link hvr-bounce-to-top" href="#contact">Contact</a>
+                        <a class="nav-link hvr-bounce-to-top" href="#contact" aria-label="contact section">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -236,7 +236,7 @@
                                 </div>
                                 <div class="col-xs-12 col-lg-9">
                                     <select id="project" name="project" class="contact-input-field" required>
-                                        <option selected disabled>Project Type</option>
+                                        <option selected disabled value="">Project Type</option>
                                         <option value="Animation">Animation</option>
                                         <option value="Editing">Editing</option>
                                         <option value="Photography">Photography</option>
@@ -268,7 +268,6 @@
             </div>
     </section>
     <!-- footer -->
-    <!-- footer -->
     <footer>
         <div class="container-fluid footer">
             <div class="row">
@@ -295,10 +294,10 @@
             </div>
         </div>
     </footer>
-<!-----------------------------------------------------------------------MODALS----------------------------------------------------------------------->
+<!--========================================MODALS========================================-->
 <!-- PROJECT 1 GALLERY MODAL -->
     <!-- Modal from Bootstrap as a starting point-->
-        <div class="modal fade" id="project1" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="project1label" aria-hidden="true">
+        <div class="modal fade" id="project1" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-over">
@@ -322,49 +321,49 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo2large" aria-label="EnlargePhoto1">
-                                 <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-2.jpg"alt="A view of open water">
+                                 <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-2.jpg" alt="A view of open water">
                                 </a>
                                 <p>Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo3large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-3.jpg"alt="Mountains with blue sky">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-3.jpg" alt="Mountains with blue sky">
                                 </a>
                                 <p>Mountains, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo4large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-4.jpg"alt="Mountains reflected in water">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-4.jpg" alt="Mountains reflected in water">
                                 </a>
                                 <p>Mountain Reflections, Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo5large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-5.jpg"alt="Lake Louise, Canada 2">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-5.jpg" alt="Lake Louise, Canada 2">
                                 </a>
                                 <p>Lake Louise, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo6large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-6.jpg"alt="a snowy mountain">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-6.jpg" alt="a snowy mountain">
                                 </a>
                                 <p>Snowy Mountain, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo7large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-7.jpg"alt="A moose in a field">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-7.jpg" alt="A moose in a field">
                                 </a>
                                 <p>Wild Moose, Jasper</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo8large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-8.jpg"alt="Bear on rocks">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-8.jpg" alt="Bear on rocks">
                                 </a>
                                 <p>Fishing Bear, Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj1photo9large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-9.jpg"alt="Canadian Ice Fields">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-9.jpg" alt="Canadian Ice Fields">
                                 </a>
                                 <p>Ice Fields, Banff</p>
                             </div>
@@ -375,7 +374,7 @@
         </div>
 
 <!-- PROJECT 1 PHOTO 1 FULL MODAL -->
-        <div class="modal fade" id="proj1photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto9LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -397,7 +396,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 2 FULL MODAL -->
-        <div class="modal fade" id="proj1photo2large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto2LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo2large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -419,7 +418,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 3 FULL MODAL -->
-        <div class="modal fade" id="proj1photo3large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto3LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo3large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -441,7 +440,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 4 FULL MODAL -->
-        <div class="modal fade" id="proj1photo4large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto4LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo4large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -463,7 +462,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 5 FULL MODAL -->
-        <div class="modal fade" id="proj1photo5large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto5LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo5large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -485,7 +484,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 6 FULL MODAL -->
-        <div class="modal fade" id="proj1photo6large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto6LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo6large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -507,7 +506,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 7 FULL MODAL -->
-        <div class="modal fade" id="proj1photo7large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto7LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo7large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -529,7 +528,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 8 FULL MODAL -->
-        <div class="modal fade" id="proj1photo8large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto8LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo8large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -551,7 +550,7 @@
             </div>
         </div>
 <!-- PROJECT 1 PHOTO 9 FULL MODAL -->
-        <div class="modal fade" id="proj1photo9large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="ProjectPhoto9LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj1photo9large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -575,7 +574,7 @@
 
         <!-- PROJECT 2 GALLERY MODAL -->
     <!-- Modal from Bootstrap as a starting point-->
-        <div class="modal fade" id="project2" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="project2label" aria-hidden="true">
+        <div class="modal fade" id="project2" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-over">
@@ -595,58 +594,55 @@
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo1large" aria-label="EnlargePhoto1">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-1.png" alt="Iceland">
                                 </a>
-                                <p>Lake Louise, Banff</p>
+                                <p>Waterfall, Iceland</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo2large" aria-label="EnlargePhoto2">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-2.png" alt="Iceland">
                                 </a>
-                                <p>Vancouver Island</p>
+                                <p>Sunset, Iceland</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo3large" aria-label="EnlargePhoto3">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-3.png" alt="Iceland">
                                 </a>
-                                <p>Mountains, Banff</p>
+                                <p>Waterfall, Iceland</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo4large" aria-label="EnlargePhoto4">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-4.png" alt="Iceland">
                                 </a>
-                                <p>Mountain Reflections, Vancouver Island</p>
+                                <p> Þingvellir, Iceland </p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo5large" aria-label="EnlargePhoto5">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-5.png" alt="Iceland">
                                 </a>
-                                <p>Lake Louise, Banff</p>
+                                <p> Þingvellir Waterfall, Iceland</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo6large" aria-label="EnlargePhoto6">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-6.png" alt="Iceland">
                                 </a>
-                                <p>Snowy Mountain, Banff</p>
+                                <p>Waterfall, Iceland</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo7large" aria-label="EnlargePhoto7">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-7.png" alt="Iceland">
                                 </a>
-                                <p>Wild Moose, Jasper</p>
+                                <p>Cabin, Iceland</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo8large" aria-label="EnlargePhoto8">
                                     <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-8.png" alt="Iceland">
                                 </a>
-                                <p>Fishing Bear, Vancouver Island</p>
+                                <p> Sunset, Iceland</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj2photo9large" aria-label="EnlargePhoto9">
-                                    <video class="img-gal shake" controls poster="assets/images/latest-projects/animation.png">
-                                        <source  src="../assets/video/latest-projects/animation.mp4" type="video/mp4">
-                                            Sorry, your browser does not support the video tag.
-                                    </video>
+                                    <img class="img-gal shake" src="../assets/images/photography-page/project-2/iceland-9.png" alt="Iceland">
                                 </a>
-                                <p>Ice Fields, Banff</p>
+                                <p>Polar Animation, Iceland</p>
                             </div>
                         </div> 
                     </div> 
@@ -655,7 +651,7 @@
         </div>
 
 <!-- PROJECT 2 PHOTO 1 FULL MODAL -->
-        <div class="modal fade" id="proj2photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo9LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -677,7 +673,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 2 FULL MODAL -->
-        <div class="modal fade" id="proj2photo2large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo2LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo2large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -699,7 +695,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 3 FULL MODAL -->
-        <div class="modal fade" id="proj2photo3large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo3LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo3large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -721,7 +717,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 4 FULL MODAL -->
-        <div class="modal fade" id="proj2photo4large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo4LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo4large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -743,7 +739,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 5 FULL MODAL -->
-        <div class="modal fade" id="proj2photo5large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo5LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo5large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -765,7 +761,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 6 FULL MODAL -->
-        <div class="modal fade" id="proj2photo6large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo6LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo6large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -787,7 +783,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 7 FULL MODAL -->
-        <div class="modal fade" id="proj2photo7large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo7LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo7large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -809,7 +805,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 8 FULL MODAL -->
-        <div class="modal fade" id="proj2photo8large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo8LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo8large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -831,7 +827,7 @@
             </div>
         </div>
 <!-- PROJECT 2 PHOTO 9 FULL MODAL -->
-        <div class="modal fade" id="proj2photo9large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project2Photo9LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj2photo9large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -843,8 +839,11 @@
                         </div>
                         <div class="row">
                             <div class="col-12 img-responsive text-center">
-                                <a target="_blank" href="/assets/images/photography-page/project-2/">
-                                    <img class="img-gal" src="../assets/images/latest-projects/canada/canada-9.jpg" alt="Lake Lousie, Canada 1">
+                                <a target="_blank" href="assets/video/photography/iceland-9.mp4">
+                                    <video class="img-gal" controls>
+                                        <source  src="assets/video/photography/iceland-9.mp4" type="video/mp4">
+                                            Sorry, your browser does not support the video tag.
+                                    </video>
                                 </a>
                             </div>
                         </div> 
@@ -855,7 +854,7 @@
         
 <!-- PROJECT 3 GALLERY MODAL -->
     <!-- Modal from Bootstrap as a starting point-->
-        <div class="modal fade" id="project3" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="project3label" aria-hidden="true">
+        <div class="modal fade" id="project3" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-over">
@@ -879,49 +878,49 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo2large" aria-label="EnlargePhoto1">
-                                 <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-2.jpg"alt="A view of open water">
+                                 <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-2.jpg" alt="A view of open water">
                                 </a>
                                 <p>Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo3large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-3.jpg"alt="Mountains with blue sky">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-3.jpg" alt="Mountains with blue sky">
                                 </a>
                                 <p>Mountains, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo4large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-4.jpg"alt="Mountains reflected in water">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-4.jpg" alt="Mountains reflected in water">
                                 </a>
                                 <p>Mountain Reflections, Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo5large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-5.jpg"alt="Lake Louise, Canada 2">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-5.jpg" alt="Lake Louise, Canada 2">
                                 </a>
                                 <p>Lake Louise, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo6large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-6.jpg"alt="a snowy mountain">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-6.jpg" alt="a snowy mountain">
                                 </a>
                                 <p>Snowy Mountain, Banff</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo7large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-7.jpg"alt="A moose in a field">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-7.jpg" alt="A moose in a field">
                                 </a>
                                 <p>Wild Moose, Jasper</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo8large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-8.jpg"alt="Bear on rocks">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-8.jpg" alt="Bear on rocks">
                                 </a>
                                 <p>Fishing Bear, Vancouver Island</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 img-responsive text-center">
                                 <a href="" data-bs-toggle="modal" data-bs-target="#proj3photo9large" aria-label="EnlargePhoto1">
-                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-9.jpg"alt="Canadian Ice Fields">
+                                    <img class="img-gal shake" src="assets/images/latest-projects/canada/canada-9.jpg" alt="Canadian Ice Fields">
                                 </a>
                                 <p>Ice Fields, Banff</p>
                             </div>
@@ -932,7 +931,7 @@
         </div>
 
 <!-- PROJECT 3 PHOTO 1 FULL MODAL -->
-        <div class="modal fade" id="proj3photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo9LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo1large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -954,7 +953,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 2 FULL MODAL -->
-        <div class="modal fade" id="proj3photo2large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo2LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo2large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -976,7 +975,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 3 FULL MODAL -->
-        <div class="modal fade" id="proj3photo3large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo3LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo3large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -998,7 +997,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 4 FULL MODAL -->
-        <div class="modal fade" id="proj3photo4large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo4LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo4large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -1020,7 +1019,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 5 FULL MODAL -->
-        <div class="modal fade" id="proj3photo5large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo5LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo5large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -1042,7 +1041,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 6 FULL MODAL -->
-        <div class="modal fade" id="proj3photo6large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo6LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo6large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -1064,7 +1063,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 7 FULL MODAL -->
-        <div class="modal fade" id="proj3photo7large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo7LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo7large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -1086,7 +1085,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 8 FULL MODAL -->
-        <div class="modal fade" id="proj3photo8large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo8LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo8large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
@@ -1108,7 +1107,7 @@
             </div>
         </div>
 <!-- PROJECT 3 PHOTO 9 FULL MODAL -->
-        <div class="modal fade" id="proj3photo9large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="Project3Photo9LargeLabel" aria-hidden="true">
+        <div class="modal fade" id="proj3photo9large" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable modal-over">
                 <div class="modal-content modal-over modal-bg-dark modal-bg">
                     <div class="modal-body modal-body--full modal-over">
