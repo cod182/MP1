@@ -322,11 +322,13 @@ button {
 .about-section {
     padding: 10% 5% 5% 5%;
     width: 100vw;
-    background-image: url(../images/about-bg.png);
+    /* background-image: url(../images/about-bg.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
+    */
+    background-image
+} 
 
 .about-text-box {
     background-color: rgba(255, 255, 255, 0.877);
@@ -402,20 +404,20 @@ button {
     margin-bottom: 10px;
 }
 
-.testimonials-heading {
+.testimonials-title {
     text-align: center;
     font-size: 250%;
     margin:0;
 }
 
-.testi-heading {
+.testimonial-heading {
     text-align: center;
     color: #845EC2;
     margin-left: auto;
     margin-right: auto;
 }
 
-.testi-img-circle {
+.testimonial-img-circle {
     height: 75px;
     width: 75px;
     border: 2px solid black;
@@ -423,14 +425,14 @@ button {
     margin: 0 auto;
 }
 
-.testi-img {
+.testimonial-img {
     width: 100%;
     height: 100%;
     margin: auto;
     border-radius: 50%;
 }
 
-.testi-text {
+.testimonial-text {
     text-align: center;
     color: #845EC2;
     font-family: lato, "open-sans'";
@@ -440,14 +442,14 @@ button {
     .about-section {
         background-attachment: unset;
     }
-    .testi-heading {
+    .testimonial-heading {
         margin-top: 5%;
     }
-    .testi-img-circle {
+    .testimonial-img-circle {
         float: left;
         margin: auto 0;
     }
-    .testi-text {
+    .testimonial-text {
         max-width: 70%;
         float: right;
         margin-right:8%;
@@ -476,7 +478,7 @@ button {
 }
 
 @media only screen and (min-width:579px) and (max-width:767px) {
-.about-heading h1 {
+.about-heading h2 {
         margin-top: 80px;
     }
 .about-heading p {
@@ -491,7 +493,7 @@ button {
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
-.about-heading h1 {
+.about-heading h2 {
         margin-top: 80px;
     }
 .about-heading p {
@@ -675,7 +677,6 @@ HTML CSSResult Skip Results Iframe
 }
 
 .modal-bg {
-    background: rgba(201, 201, 201, 0.774);
     border-radius: 20px;
     overflow: visible;
 }
@@ -753,7 +754,6 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .contact-input-field {
-    background-color: rgb(161, 161, 161);
     border: 1px solid #845EC2;
     color: #845EC2;
     border-radius: 5px;
@@ -774,7 +774,6 @@ border-bottom:2px solid #f1f1f1;
 }
 
 .input-message {
-    background-color: rgb(161, 161, 161);
     border: 1px solid #845EC2;
     color: #845EC2;
     border-radius: 5px;
