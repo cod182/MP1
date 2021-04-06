@@ -35,7 +35,7 @@ Embedded video will be available on project pages where applicable.
 
 Technical Capabilities
 
-- It is possible to create this site efficiently using the bootstrap framework and HTML/CSS that has been learned.
+- It is possible to create this site efficiently using the bootstrap framework and HTML/CSS that I have learned.
 
 ### Business Vision
 
@@ -61,7 +61,7 @@ Technical Capabilities
 
 ## Skeleton
 
-### wireframes
+### Wireframes
 
 #### Original Wireframes
 - [XS >576px](assets/images/wireframes/original-wireframes/xs-width-_576px375px.png)
@@ -85,20 +85,21 @@ The finished site will be a single page introducing the company, and showing the
 The home page will contain a Navbar along the top that will shrink on tablets and mobile. It will also containt an full height hero image of the companies logo.
 
 ### About
-The about seciton wil be full height with an image back ground and overlay. The about text will introduce the company.
+The about seciton wil have an image background. The section will contain an introducton section on the left with a skills pane, on the right there will ba overview video. Below these there will be testimonials from clients. On mobile the elements will bee full width and stacked.
 
 ### Latest Projects
 The latest projects section will display the latest projects from each aspect of the company. There will also be link to archive pages for each of the project caracories.
 
 ### Contact
-The contact section will be full height with a form to enter required details and send a message to the company.
+The contact section will be have a solid background. To the left will be an animated gif and to the right will be a contact form. The contact form will allow a prospective lient to enter required details and send a message to the company.
 
 ### Archive Pages
-Each catagories page will be similar. There will be a number of projects displayed will relevant information on each.
+Each catagories page will be similar. There will be a number of projects displayed will relevant information on each. There will be a favourite projects section that will contain 3 projects. Below this there will be a Archived Projects section containing an unlimited number of projects.
 
-#### Colour Scheme/Typography/Effects/Imagery
+  
 The colours to be using on the page are a contrasting <span style="color:#845EC2">purple</span> and <span style="color:#FF9671">orange</span>.
 The fonts to be used on the site are Roboto and Lato.
+
 
 Visual Design
 	Colours, typography, effects, imagery
@@ -108,6 +109,94 @@ Visual Design
 	Appropriate content
 	Final Design
 
-# Acknowledgements
+##Features
 
-- https://www.tutorialspoint.com/
+### Existing Features
+
+### Features to be implemented
+
+- Mailing List sign up for project updates
+- Breakdown of gerneral costs for each service
+- Mail server connection for contact form
+
+## Technoogies used
+- HTML5
+- CSS3
+- Bootstrap v5 beta 2
+- Hover 2.3.1
+- Google Chrome Dev tools for debugging
+- Google Lighthouse for audits
+
+# Testing
+
+## Planning
+
+At the beginning of the project I was aware of the audience for the website and their needs when visiting. I considered the devices that would be used when visiting and took note of ensuring the pages looked their best when visited.
+
+The devices I plan to test the websit with are:
+
+- Chrome Developer Tools
+    - iPhone 5/SE (320x568)
+    - iPhone 6/7/8 (357x667)
+    - iPhone 6/7/8 Plus (414x736)
+    - iPad (768x1024)
+    - iPad Pro (1024x1366)
+
+- Handheld Device Realworld Testing
+    - iPhone XS Max
+    - iPhone 12
+    - iPad Pro 11"
+    - Samsung Galaxy A40
+
+- Screen Testing
+    - Laptop Screen 13" (1280x800)
+    - Laptop Screen 16" (3072x1920)
+    - Desktop Screen 22" (1680 × 1050)
+    - iMac 5K Screen 27" (5120x2880)
+
+## Running Tests
+
+## Deployment
+
+The project was created in GitPod and hosted through GitHub. 
+To clone the project:
+
+- Go [Here](https://github.com/cod182/Milestone-Project-1)
+- Click Code
+- Choose either
+    - Open with GitHub Desktop
+    - Download as Zip
+- You can no open the project in a IDE or host to a server
+
+
+## Bugs
+
+# Credits
+
+- Media
+    - Whale Hello provided 99% of images and video
+    - vippng.com provided the waves image on index.html (https://www.vippng.com/maxp/bxbwRm/)
+    - Mi Little Pad, Kids With Bricks and Cardiff Canine Citizens provided their logos for use on the site.
+
+- Fonts
+    - Google Fonts provided the roboto and lato fonts. (https://fonts.google.com/)
+
+- Icons
+    - Fontawesome provided all the icons used. (https://fontawesome.com/)
+
+- Modal
+    - The start of the modal was provided by bootstrap and then built upon
+
+- Image Flip bord on index.html
+    - Codepen.io user Jeet provided an template card flip that was expanded upon to fulfil the sites needs (https://codepen.io/JEETPAL/details/ZMvwjV)     
+
+- Tutorials
+    - WebDesign provided tutorials for creating verticle text (https://webdesign.tutsplus.com/)
+
+- General Information
+    - User nemixu gave a highly informative talk on the project requirments.
+
+---
+## This project is for educational purposes only
+
+### Created by Codie Stephens-Evans
