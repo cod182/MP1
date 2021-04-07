@@ -210,7 +210,7 @@ button {
     margin-right: 86px;
 }
 
-@media only screen and (min-width:994px) {
+@media only screen and (max-width:994px) {
     .navbar-collapse {
         margin-right:auto;
     }
