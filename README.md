@@ -195,6 +195,9 @@ To clone the project:
 - Tutorials
     - WebDesign provided tutorials for creating verticle text (https://webdesign.tutsplus.com/)
 
+- Javascript
+    - James Bainbridge (Provided assistance in creating a script to stop videos playing when the modal was closed)
+
 - General Information
     - User nemixu gave a highly informative talk on the project requirments.
 
