@@ -11,7 +11,7 @@ The use will be to display and advertise the services offered by a Videographer/
 
 A deployed link to the site can be found [here](https://cod182.github.io/Milestone-Project-1/)
 
-![Preivew](readme/site-responsive.png)
+![Preivew](readme/wireframes/site-responsive.png)
 
 
 # UX
@@ -152,11 +152,38 @@ The devices I plan to test the websit with are:
 
 - Screen Testing
     - Laptop Screen 13" (1280x800)
+        - Safari
+        - Chrome
     - Laptop Screen 16" (3072x1920)
+        - Safari
+        - Chrome
     - Desktop Screen 22" (1680 × 1050)
+        - Safari
+        - Chrome
     - iMac 5K Screen 27" (5120x2880)
+        - Safari
+        - Chrome
+---
 
 ## Running Tests
+
+### HTML5 
+The code was validated using [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+
+|Page|Result|Resolution|
+|----------|------|---|
+|index.html|Error found on contact form method & action|Backend needs to be linked on next release
+|photography.html|Error found on contact form method & action|Backend needs to be linked on next release
+|animation.html|Error found on contact form method & action|Backend needs to be linked on next release
+|editing.html|Error found on contact form method & action|Backend needs to be linked on next release
+|videography.html|Error found on contact form method & action|Backend needs to be linked on next release
+|404.html|Stray /head tag found|Removed unused /head tag
+
+### CSS3 
+The code was validated using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+No Errors Found
+
 
 ## Deployment
 
@@ -168,7 +195,7 @@ To clone the project:
 - Choose either
     - Open with GitHub Desktop
     - Download as Zip
-- You can no open the project in a IDE or host to a server
+- You can now open the project in a IDE or host to a server
 
 
 ## Bugs
@@ -177,23 +204,25 @@ To clone the project:
 
 - Media
     - Whale Hello provided 99% of images and video
-    - vippng.com provided the waves image on index.html (https://www.vippng.com/maxp/bxbwRm/)
+    - vippng.com provided the waves image on index.html [Link To Site](https://www.vippng.com/maxp/bxbwRm/)
     - Mi Little Pad, Kids With Bricks and Cardiff Canine Citizens provided their logos for use on the site.
 
 - Fonts
-    - Google Fonts provided the roboto and lato fonts. (https://fonts.google.com/)
+    - Google Fonts provided the roboto and lato fonts [Link To Site](https://fonts.google.com/)
 
 - Icons
-    - Fontawesome provided all the icons used. (https://fontawesome.com/)
+    - Fontawesome provided all the icons used. [Link To Site](https://fontawesome.com/)
 
 - Modal
     - The start of the modal was provided by bootstrap and then built upon
 
 - Image Flip bord on index.html
-    - Codepen.io user Jeet provided an template card flip that was expanded upon to fulfil the sites needs (https://codepen.io/JEETPAL/details/ZMvwjV)     
+    - Codepen.io user Jeet provided an template card flip that was expanded upon to fulfil the sites needs [Link To Site](https://codepen.io/JEETPAL/details/ZMvwjV)     
 
+- Video Backgroun
+    - W3Schools [Link To Site](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fullscreen_video)
 - Tutorials
-    - WebDesign provided tutorials for creating verticle text (https://webdesign.tutsplus.com/)
+    - WebDesign provided tutorials for creating verticle text [Link To Site](https://webdesign.tutsplus.com/)
 
 - Javascript
     - James Bainbridge (Provided assistance in creating a script to stop videos playing when the modal was closed)
