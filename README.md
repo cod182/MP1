@@ -11,7 +11,7 @@ The use will be to display and advertise the services offered by a Videographer/
 
 A deployed link to the site can be found [here](https://cod182.github.io/Milestone-Project-1/)
 
-![Preivew](assets/images/wireframes/site-responsive.png)
+![Preivew](readme/site-responsive.png)
 
 
 # UX
@@ -197,6 +197,7 @@ To clone the project:
 
 - Javascript
     - James Bainbridge (Provided assistance in creating a script to stop videos playing when the modal was closed)
+    - Stackoverflow (Porvided guidance toward closing of nav bar when link was clicked)
 
 - General Information
     - User nemixu gave a highly informative talk on the project requirments.
