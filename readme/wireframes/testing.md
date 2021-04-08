@@ -28,6 +28,13 @@
 |---|---|---|---|
 |iPhone 5/SE|320x568|Clipping noticed on index.html Hero-Image (Whale Hello) |Added media query for max-width414px background-size:containe to .hero-image|
 |iPhone 5/SE|320x568|Nav not collapsing when link clicked|vanilla javascript added - detailled in bugs section|
-|iPhone 5/SE|320x568|Testimonials test too larger||
+|iPhone 5/SE|320x568|Testimonials text too larger|Added .testimonials-title to existing media query font-size:173% after checking in chrome dev tools |
 
+### iPhone 6/7/8
 
+| Device | Resolution | Comment | Solution |
+|---|---|---|---|
+|iPhone 6/7/8|357x667|||
+|iPhone 6/7/8|357x667|||
+|iPhone 6/7/8|357x667|||
+|iPhone 6/7/8|357x667|||
