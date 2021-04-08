@@ -30,7 +30,6 @@
 |Verticle|320x568|Nav not collapsing when link clicked|vanilla javascript added - detailled in bugs section|
 |Verticle|320x568|Testimonials text too larger|Added .testimonials-title to existing media query font-size:173% after checking in chrome dev tools |
 |Verticle|320x568|Images on videography.html broken|corrected the path to image in html |
-|Horizontal|568x320|Photography card on index.html moved to the left| added to existing media query for .card width 95vw|
 |Horizontal|568x320|Button on animation on index.html stuck out of the bottom | added to existing media query .latest-height to 70% width|
 
 
