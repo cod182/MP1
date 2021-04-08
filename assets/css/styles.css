@@ -417,6 +417,8 @@ button {
 
 .about-skills-wrapper--right img{
     margin: 22% auto;
+    height: 100%;
+    width: 100%;
 }
 
 .testimonial-wrapper {
