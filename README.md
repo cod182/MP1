@@ -184,6 +184,10 @@ The code was validated using [W3C CSS Validation Service](https://jigsaw.w3.org/
 
 No Errors Found
 
+All pages were testing with Googel Dev Tools Lighthouse first to identify and issues before testing.
+
+
+
 The process for testing the site was as follows:
 1. Load page
 2. Click About (Auto scroll to about section)

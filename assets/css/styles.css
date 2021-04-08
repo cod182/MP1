@@ -754,14 +754,13 @@ border-bottom:2px solid #f1f1f1;
     padding: 5%;
 }
 
-.contact-image {
-    background-image: url(../images/contact-bg.gif);
-    background-color: #131674;
-    height: 400px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto 0;
+.contact-video {
+    margin:auto;
+}
+
+#contact-bg-video {
+    height:400px;
+    width:100%;
 }
 
 .contact-box {
