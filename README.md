@@ -175,7 +175,7 @@ The code was validated using [W3C Markup Validation Service](https://validator.w
 |index.html|Error found on contact form method & action|Backend needs to be linked on next release
 |photography.html|Error found on contact form method & action|Backend needs to be linked on next release
 |animation.html|Error found on contact form method & action|Backend needs to be linked on next release
-|editing.html|Error found on contact form method & action|Backend needs to be linked on next release
+|editing.html|Error found on contact form method & action / aria-abelledby errors on modals|Backend needs to be linked on next release / removed aria-labelledby
 |videography.html|Error found on contact form method & action|Backend needs to be linked on next release
 |404.html|Stray /head tag found|Removed unused /head tag
 
@@ -183,6 +183,76 @@ The code was validated using [W3C Markup Validation Service](https://validator.w
 The code was validated using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 No Errors Found
+
+The process for testing the site was as follows:
+1. Load page
+2. Click About (Auto scroll to about section)
+3. Briefly view background video
+4. Scroll down to more of the about section
+5. Click Home (Auto screoll to top of screen)
+6. Click projects (Auto scroll to Projects section)
+7. Hover over (desktop) or press on (mobile) each latest project card
+8. Click the + on Photography card to view modal
+9. Click on random picture to view full size
+10. Close both modals
+11. Click Top of page button (arrow on right) to return to top of the screen
+12. Click on Contact (Auto scroll to contact section)
+13. Enter details in contact form, leaveing 1 requured secion empty
+14. Click Send Message to check required field is requested
+15. Complete form and send message again to ensure it is submitted
+16. Click the Whale Hello brand icon in the top left (Auto scroll to top)
+17. Click Projects (Auto scroll to Projects section)
+18. Hover over (desktop) press on (mobiel) Animation and click on View Portfolio Button
+19. Be taken to animation.html
+20. Hover (desktop) over each project thumbnail to ensure they shake
+21. Click on a random project thumbnail to open modal
+22. Close Modal
+23. Click on View Project Button below thumbnail to open modal
+24. Check title, project and description is visable and project video plays
+25. Close modal
+26. Click Contact (Auto scroll to contact section)
+27. Click Home to be taken to index.html
+28. Click back arrow in browser to return to animation.html
+29. Click About to be taken to index.html then auto scroll to about section
+30. Click Projects (Auto scroll to Projects section)
+31. Hover over (desktop) press on (mobiel) Editing and click on View Portfolio Button
+32. Be taken to editing.html
+33. Hover (desktop) over each project thumbnail to ensure they shake
+34. Click on a random project thumbnail to open modal
+35. Close Modal
+36. Click on View Project Button below thumbnail to open modal
+37. Check title, project and description is visable and project video plays
+38. Close modal
+39. Click Contact (Auto scroll to contact section)
+40. Click Home to be taken to index.html
+41. Click back arrow in browser to return to animation.html
+42. Click About to be taken to index.html then auto scroll to about section
+43. Click Projects (Auto scroll to Projects section)
+44. Hover over (desktop) press on (mobiel) Photography and click on View Portfolio Button
+45. Be taken to photography.html
+46. Hover (desktop) over each project thumbnail to ensure they shake
+47. Click on a random project thumbnail to open modal
+48. Close Modal
+49. Click on View Project Button below thumbnail to open modal
+50. Check title, project and description is visable and project video plays
+51. Close modal
+52. Click Contact (Auto scroll to contact section)
+53. Click Home to be taken to index.html
+54. Click back arrow in browser to return to animation.html
+55. Click About to be taken to index.html then auto scroll to about section
+56. Click Projects (Auto scroll to Projects section)
+57. Hover over (desktop) press on (mobiel) Videography and click on View Portfolio Button
+58. Be taken to videography.html
+59. Hover (desktop) over each project thumbnail to ensure they shake
+60. Click on a random project thumbnail to open modal
+61. Close Modal
+62. Click on View Project Button below thumbnail to open modal
+63. Check title, project and description is visable and project video plays
+64. Close modal
+65. Click Contact (Auto scroll to contact section)
+66. Click Home to be taken to index.html
+67. Click back arrow in browser to return to animation.html
+68. Click About to be taken to index.html then auto scroll to about section
 
 
 ## Deployment

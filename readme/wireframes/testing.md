@@ -1,7 +1,7 @@
 # Testing for Mileston Project 1 - Whale Hello
 
 ## Chrome Developer Tools
-| Tables        | Are           | Cool  |
+| Resolution        | Issue           | Steps Taken  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
