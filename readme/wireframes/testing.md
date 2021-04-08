@@ -22,19 +22,31 @@
 
 ## Chrome Developer Tools - Testing Log
 
-### iPhone 5/SE
+### iPhone 5/SE 320x568 & 568x320
 
 | Horizontal/Verticle | Resolution | Comment | Solution |
 |---|---|---|---|
 |Verticle|320x568|Clipping noticed on index.html Hero-Image (Whale Hello) |Added media query for max-width414px background-size:containe to .hero-image|
 |Verticle|320x568|Nav not collapsing when link clicked|vanilla javascript added - detailled in bugs section|
 |Verticle|320x568|Testimonials text too larger|Added .testimonials-title to existing media query font-size:173% after checking in chrome dev tools |
+|Verticle|320x568|Images on videography.html broken|corrected the path to image in html |
+|Horizontal|568x320|Photography card on index.html moved to the left| added to existing media query for .card width 95vw|
 
-### iPhone 6/7/8
+
+### iPhone 6/7/8 357x667
 
 | Device | Resolution | Comment | Solution |
 |---|---|---|---|
-|iPhone 6/7/8|357x667|Modal images overlapping on the bottom of each image|Changed the height on img-gal to 80%|
-|iPhone 6/7/8|357x667|||
-|iPhone 6/7/8|357x667|||
-|iPhone 6/7/8|357x667|||
+|Verticle|357x667|Modal images overlapping on the bottom of each image|Changed the height on img-gal to 80%|
+
+### iPhone 6/7/8 Plus 414x736
+
+| Device | Resolution | Comment | Solution |
+|---|---|---|---|
+No issues found that weren't detected in previous tests
+
+### iPad 768x1024
+
+| Device | Resolution | Comment | Solution |
+|---|---|---|---|
+No issues found that weren't detected in previous tests

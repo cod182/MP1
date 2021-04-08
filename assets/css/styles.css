@@ -571,7 +571,7 @@ button {
     font-size: 300%;
 }
 
-#team .card {
+.card {
     border: none;
     background: #ffffff;
 }
@@ -707,6 +707,7 @@ button {
 @media only screen and (max-width:768px){
     .card {
         height:500px;
+        width: 95vw;
     }
 }
 /* =====================================================
