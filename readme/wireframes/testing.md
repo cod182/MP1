@@ -33,20 +33,31 @@
 |Horizontal|568x320|Button on animation on index.html stuck out of the bottom | added to existing media query .latest-height to 70% width|
 
 
-### iPhone 6/7/8 357x667
+### iPhone 6/7/8 357x667 & 667x357
 
 | Device | Resolution | Comment | Solution |
 |---|---|---|---|
 |Verticle|357x667|Modal images overlapping on the bottom of each image|Changed the height on img-gal to 80%|
 
-### iPhone 6/7/8 Plus 414x736
+### iPhone 6/7/8 Plus 414x736 & 736x414
 
 | Device | Resolution | Comment | Solution |
 |---|---|---|---|
 No issues found that weren't detected in previous tests
 
-### iPad 768x1024
+### iPad 768x1024 & 1024x768
 
 | Device | Resolution | Comment | Solution |
 |---|---|---|---|
 No issues found that weren't detected in previous tests
+
+### iPad Pro 1024x1336 1336x1024
+| Device | Resolution | Comment | Solution |
+|---|---|---|---|
+No issues found that weren't detected in previous tests
+
+## Handheld Device Realworld Testing - Testing Log
+
+### iPhone XS Max
+| Device | Resolution | Comment | Solution |
+|---|---|---|---|
