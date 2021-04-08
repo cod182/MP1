@@ -184,12 +184,10 @@ The code was validated using [W3C CSS Validation Service](https://jigsaw.w3.org/
 
 No Errors Found
 
-All pages were testing with Googel Dev Tools Lighthouse first to identify and issues before testing.
+All pages were testing with Google Dev Tools Lighthouse first to identify and issues before testing.
 Issues with page load times were identified and solved. The first issues related to the .gif that played in the contact section. This was converted to a .webm and played throuhg a HTML5 video element. 
-The second issue related to large image thumbnails for projects. Thiswas resolved by using the picture element over the img and providing a different src for desktops and mobiles.
-These 2 fixes increased the page load times vastly.
-
-
+The second issue related to large image thumbnails for projects. Thiswas resolved by using the picture element over the img and providing a different src for desktops and mobiles. These 2 fixes increased the page load times vastly.
+Results of the [Lighthouse tests can be found here](readme/wireframes/testing.md)
 
 The process for testing the site was as follows:
 1. Load page
@@ -261,6 +259,21 @@ The process for testing the site was as follows:
 67. Click back arrow in browser to return to animation.html
 68. Click About to be taken to index.html then auto scroll to about section
 
+### Testing Results
+
+Testing process has been logged on a seperate readme file file found [HERE](readme/wireframes/testing.md)
+
+The overall results was good, with only some bugs found. These were resolved as detailled below and the site performed as expected.
+Load times were good and all content was easilt accessible.
+
+## Bugs
+
+- When a modal was opened and a video played, the video would not stop when the modal was closed. Creating a bad user experience as the user would need to find teh same modal and stop the video.
+    - The resolution to this was complex for me at this point in learning as I have no experiecne of jvascript. Reaching out, I found someone who helped assist me through the process of using vanilla javascript.
+    - The modal closebutton was captured and on click it would remove then add the youtube video src, causing the video to stop, but still be availabe if the modal was re-visited.
+    - For HTML4 video players the modal close button would cause the video to pause.
+- When in mobile view, the nav bar would not collapse when a link was clicked that pointed to an anchor on the same page. This created a bad user experience as the user would need to close the nav manuallt. 
+    - This was resolved by searching for a vanilla javascript was to capture the link click action and add add collapsed to the navbar-sm-dropdown class.
 
 ## Deployment
 
@@ -273,9 +286,6 @@ To clone the project:
     - Open with GitHub Desktop
     - Download as Zip
 - You can now open the project in a IDE or host to a server
-
-
-## Bugs
 
 # Credits
 

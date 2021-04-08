@@ -296,7 +296,6 @@ button {
     background-image: url(../images/site-image.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode: darken;
     height: 100vh;
     z-index: 1;
     animation-name: hero-zoom;
@@ -323,6 +322,12 @@ button {
     }
     to {
         opacity: 100%;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .hero-image {
+        background-size: contain;
     }
 }
 
