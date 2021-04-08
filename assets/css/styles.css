@@ -488,6 +488,9 @@ button {
     .about-section {
         background-attachment: unset;
     }
+    .testimonials-title {
+        font-size: 173%;
+    }
     .testimonial-heading {
         margin-top: 5%;
     }

@@ -207,7 +207,7 @@ The process for testing the site was as follows:
 15. Complete form and send message again to ensure it is submitted
 16. Click the Whale Hello brand icon in the top left (Auto scroll to top)
 17. Click Projects (Auto scroll to Projects section)
-18. Hover over (desktop) press on (mobiel) Animation and click on View Portfolio Button
+18. Hover over (desktop) press on (mobile) Animation and click on View Portfolio Button
 19. Be taken to animation.html
 20. Hover (desktop) over each project thumbnail to ensure they shake
 21. Click on a random project thumbnail to open modal
@@ -220,7 +220,7 @@ The process for testing the site was as follows:
 28. Click back arrow in browser to return to animation.html
 29. Click About to be taken to index.html then auto scroll to about section
 30. Click Projects (Auto scroll to Projects section)
-31. Hover over (desktop) press on (mobiel) Editing and click on View Portfolio Button
+31. Hover over (desktop) press on (mobile) Editing and click on View Portfolio Button
 32. Be taken to editing.html
 33. Hover (desktop) over each project thumbnail to ensure they shake
 34. Click on a random project thumbnail to open modal
@@ -230,10 +230,10 @@ The process for testing the site was as follows:
 38. Close modal
 39. Click Contact (Auto scroll to contact section)
 40. Click Home to be taken to index.html
-41. Click back arrow in browser to return to animation.html
+41. Click back arrow in browser to return to editing.html
 42. Click About to be taken to index.html then auto scroll to about section
 43. Click Projects (Auto scroll to Projects section)
-44. Hover over (desktop) press on (mobiel) Photography and click on View Portfolio Button
+44. Hover over (desktop) press on (mobile) Photography and click on View Portfolio Button
 45. Be taken to photography.html
 46. Hover (desktop) over each project thumbnail to ensure they shake
 47. Click on a random project thumbnail to open modal
@@ -243,7 +243,7 @@ The process for testing the site was as follows:
 51. Close modal
 52. Click Contact (Auto scroll to contact section)
 53. Click Home to be taken to index.html
-54. Click back arrow in browser to return to animation.html
+54. Click back arrow in browser to return to photography.html
 55. Click About to be taken to index.html then auto scroll to about section
 56. Click Projects (Auto scroll to Projects section)
 57. Hover over (desktop) press on (mobiel) Videography and click on View Portfolio Button
@@ -256,7 +256,7 @@ The process for testing the site was as follows:
 64. Close modal
 65. Click Contact (Auto scroll to contact section)
 66. Click Home to be taken to index.html
-67. Click back arrow in browser to return to animation.html
+67. Click back arrow in browser to return to videography.html
 68. Click About to be taken to index.html then auto scroll to about section
 
 ### Testing Results

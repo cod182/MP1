@@ -22,6 +22,12 @@
 
 ## Chrome Developer Tools - Testing Log
 
-| Device | Resolution | Comment|Solution
-|---|---|---|
-|iPhone 5/SE|320x568|Clipping noticed on index.html Hero-Image (Whale Hello)|Added media query for max-width:414px - background-size:containe to .hero-imag
+### iPhone 5/SE
+
+| Device | Resolution | Comment | Solution |
+|---|---|---|---|
+|iPhone 5/SE|320x568|Clipping noticed on index.html Hero-Image (Whale Hello) |Added media query for max-width414px background-size:containe to .hero-image|
+|iPhone 5/SE|320x568|Nav not collapsing when link clicked|vanilla javascript added - detailled in bugs section|
+|iPhone 5/SE|320x568|Testimonials test too larger||
+
+
