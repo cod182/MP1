@@ -10,6 +10,6 @@
 |2| animation.html | Desktop | [91/98/100/90]() ||ISSUE|FIX|
 |1| animation.html | Mobile | [43/96/100/92]() | Large video content & use of gif slowing page load time | Convert .gif to webm |
 |2| animation.html | Mobile | [89/98/100/92]() ||ISSUE|FIX|
-|1| editing.html | Desktop | [94/98/93/90]() ||ISSUE|FIX|
+|1| editing.html | Desktop | [91/98/100/90]() ||ISSUE|FIX|
 |1| editing.html | Mobile | [90/98/93/90]() ||ISSUE|FIX|
-
+|1| photography.html | Desktop | [91/98/100/90]() ||ISSUE|FIX|

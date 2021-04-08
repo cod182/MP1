@@ -185,6 +185,9 @@ The code was validated using [W3C CSS Validation Service](https://jigsaw.w3.org/
 No Errors Found
 
 All pages were testing with Googel Dev Tools Lighthouse first to identify and issues before testing.
+Issues with page load times were identified and solved. The first issues related to the .gif that played in the contact section. This was converted to a .webm and played throuhg a HTML5 video element. 
+The second issue related to large image thumbnails for projects. Thiswas resolved by using the picture element over the img and providing a different src for desktops and mobiles.
+These 2 fixes increased the page load times vastly.
 
 
 
