@@ -281,6 +281,8 @@ The 404 page was also then included in all testing to ensure it was working corr
     - background-size changed to cover
 - contact-video was rendering with black squares on it
     -resolution of video was too high, re-sized to lower resolution
+- Message box on contact on index.html was not using a placeholder for text causing text not to disappear when clicked.
+    - Placeholder added
 
     All of the bugs that cropped up helped me with the debuggin processed, as I had not debugged html/css before. The chrome Developer tools were used greatly in this processed to ensure the root cause of the problem was located and the fix issued before editing my html pages.
 ## Deployment

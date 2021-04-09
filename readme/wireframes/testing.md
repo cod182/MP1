@@ -607,7 +607,7 @@ No issues found that weren't detected in previous tests
 ### Issues
 | Resolution | Comment | Solution |
 |---|---|---|
-No issues found that weren't detected in previous tests
+|1280x800|Contact message box on index.html, text doesn't disappear when clicked|Added the text as a placeholder|
 
 ### **Laptop 16" Screen 3072x1920**
 
