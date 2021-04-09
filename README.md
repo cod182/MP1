@@ -181,11 +181,11 @@ The code was validated using [W3C Markup Validation Service](https://validator.w
 
 |Page|Result|Resolution|
 |----------|------|---|
-|index.html|Error found on contact form method & action|Backend needs to be linked on next release
-|photography.html|Error found on contact form method & action|Backend needs to be linked on next release
-|animation.html|Error found on contact form method & action|Backend needs to be linked on next release
-|editing.html|Error found on contact form method & action / aria-abelledby errors on modals|Backend needs to be linked on next release / removed aria-labelledby
-|videography.html|Error found on contact form method & action|Backend needs to be linked on next release
+|index.html|Error found on contact form method & action|method assigned to get & action given a holder of URL as no backend yet
+|photography.html|Error found on contact form method & action|method assigned to get & action given a holder of URL as no backend yet
+|animation.html|Error found on contact form method & action|method assigned to get & action given a holder of URL as no backend yet
+|editing.html|Error found on contact form method & action / aria-abelledby errors on modals|method assigned to get & action given a holder of URL as no backend yet / removed aria-labelledby
+|videography.html|Error found on contact form method & action|method assigned to get & action given a holder of URL as no backend yet
 |404.html|Stray /head tag found|Removed unused /head tag
 
 ### CSS3 
@@ -252,8 +252,6 @@ Testing process has been logged on a seperate readme file file found here: [Test
 The overall results was good, with a few bugs found. These were resolved by using Chrome Developer Tools first, helping find the issues quickly and ensuring the intend fix worked. It would then be implemented in html files.
 
 Loading times on desktop sites were good to start with but mobile sites had overally network load issues. This has to be resolved using a src set on pictures, this resolved the oading issue son mobiles and improved the performace score greatly.
-
-The only remaing html errors are for the form method and action. These are to be added when backend is developed
 
 I did discover that an error page would be required incase someone typed a page url incorrectly. This was quickly set-up and impletmend. It can be viewed here: [404 Page](404.html).
 The 404 page was also then included in all testing to ensure it was working correctly.
