@@ -283,8 +283,10 @@ To clone the project:
 - Image Flip bord on index.html
     - Codepen.io user Jeet provided an template card flip that was expanded upon to fulfil the sites needs [Link To Site](https://codepen.io/JEETPAL/details/ZMvwjV)     
 
-- Video Backgroun
+- Video Background
     - W3Schools [Link To Site](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fullscreen_video)
+    - Video not playing on mobile [Rob Simpson](https://robsimpson.digital/articles/autoplay-html5-video)
+
 - Tutorials
     - WebDesign provided tutorials for creating verticle text [Link To Site](https://webdesign.tutsplus.com/)
 
