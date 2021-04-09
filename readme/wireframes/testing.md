@@ -144,7 +144,7 @@
 |Verticle|320x568|Nav not collapsing when link clicked|vanilla javascript added - detailled in bugs section|
 |Verticle|320x568|Testimonials text too larger|Added .testimonials-title to existing media query font-size:173% after checking in chrome dev tools |
 |Verticle|320x568|Images on videography.html broken|corrected the path to image in html |
-|Horizontal|568x320|Button on animation on index.html stuck out of the bottom | added to existing media query .latest-height to 70% width|
+|Horizontal|568x320|Button on animation card of index.html stuck out of the bottom | added to existing media query .latest-height to 70% width|
 -----
 ### **iPhone 6/7/8 357x667 & 667x357**
 
@@ -761,3 +761,4 @@ No issues found that weren't detected in previous tests
 | Resolution | Comment | Solution |
 |---|---|---|
 |5120x2880|hero-bg did not span whole width of page|changed background-size to cover|
+|5120x2880|contact-video was rendering with black square on it|resolution of media was too high, re-encode at lower resolution|

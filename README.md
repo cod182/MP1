@@ -63,19 +63,21 @@ Technical Capabilities
 
 ### Wireframes
 
+Wireframes were created at the start of the project [Original Wireframes](readme/wireframes/original-wireframes). These were updated [New Wireframes](readme/wireframes/new-wireframes) during the project as the design was altered during creation.
+
 #### Original Wireframes
-- [XS >576px](assets/images/wireframes/original-wireframes/xs-width-_576px375px.png)
-- [SM ≥576px](assets/images/wireframes/original-wireframes/sm-width-≥576px.png)
-- [MD ≥768px](assets/images/wireframes/original-wireframes/md-width-≥768px.png)
-- [LG ≥992px](assets/images/wireframes/original-wireframes/lg-width-≥992px.png)
-- [XXL ≥1400px](assets/images/wireframes/original-wireframes/xxl-width-≥1400px.png)
+- [XS >576px](readme/wireframes/new-wireframes/xs-width-_576px(375px).png)
+- [SM ≥576px](readme/wireframes/original-wireframes/sm-width-≥576px.png)
+- [MD ≥768px](readme/wireframes/original-wireframes/md-width-≥768px.png)
+- [LG ≥992px](readme/wireframes/original-wireframes/lg-width-≥992px.png)
+- [XXL ≥1400px](readme/wireframes/original-wireframes/xxl-width-≥1400px.png)
 
 #### New Wireframes
-- [XS >576px](assets/images/wireframes/new-wireframes/xs-width-_576px375px.png)
-- [SM ≥576px](assets/images/wireframes/new-wireframes/sm-width-≥576px.png)
-- [MD ≥768px](assets/images/wireframes/new-wireframes/md-width-≥768px.png)
-- [LG ≥992px](assets/images/wireframes/new-wireframes/lg-width-≥992px.png)
-- [XXL ≥1400px](assets/images/wireframes/new-wireframes/xxl-width-≥1400px.png)
+- [XS >576px](readme/wireframes/new-wireframes/xs-width-_576px375px.png)
+- [SM ≥576px](readme/wireframes/new-wireframes/sm-width-≥576px.png)
+- [MD ≥768px](readme/wireframes/new-wireframes/md-width-≥768px.png)
+- [LG ≥992px](readme/wireframes/new-wireframes/lg-width-≥992px.png)
+- [XXL ≥1400px](readme/wireframes/new-wireframes/xxl-width-≥1400px.png)
 
 ## Surface
 
@@ -109,9 +111,12 @@ Visual Design
 	Appropriate content
 	Final Design
 
-##Features
+## Features
 
 ### Existing Features
+
+- HTML5 video played in background of about section. Autoplay, muted and on loop
+- Archive pages with modals on each project
 
 ### Features to be implemented
 
@@ -167,6 +172,10 @@ The devices I plan to test the websit with are:
 
 ## Running Tests
 
+During the testing processed I used Chrome Developed tools whenever an issue was discovered. This ensured the issues could be resolved before editing my html files.
+Validators were used to pick up any issues with the code, where a problem was discovered, it was resolved and re-tested until no issues were discovered.
+Google Lighthouse was then used to check the Perormance, Accesability, Best Practices and SEO levels. When issues were discovered that we causing scores to drop, html & css was edited in Chrome Developer Tools to ensure the resoltion worked, then commited in my html files. This was repeated until scores were at an accepable level.
+
 ### HTML5 
 The code was validated using [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 
@@ -189,7 +198,7 @@ Issues with page load times were identified and solved. The first issues related
 The second issue related to large image thumbnails for projects. Thiswas resolved by using the picture element over the img and providing a different src for desktops and mobiles. These 2 fixes increased the page load times vastly.
 Results of the [Lighthouse tests can be found here](readme/wireframes/testing.md)
 
-The full process for testing the site can be found HERE. The processed to pass were:
+The full process for testing the site can be found here [Testing Logs](readme/testing.md). The processes to pass were:
 
 |Page|Test|Result|
 |---|---|---|
@@ -236,26 +245,59 @@ The full process for testing the site can be found HERE. The processed to pass w
 |404.html|Head Home Button Works|Pass/Fail|
 
 
-### Testing Results
+## Testing Results
 
-Testing process has been logged on a seperate readme file file found [HERE](readme/wireframes/testing.md)
+Testing process has been logged on a seperate readme file file found here: [Testing Logs](readme/wireframes/testing.md)
 
-The overall results was good, with only some bugs found. These were resolved as detailled below and the site performed as expected.
-Load times were good and all content was easilt accessible.
+The overall results was good, with a few bugs found. These were resolved by using Chrome Developer Tools first, helping find the issues quickly and ensuring the intend fix worked. It would then be implemented in html files.
 
-## Bugs
+Loading times on desktop sites were good to start with but mobile sites had overally network load issues. This has to be resolved using a src set on pictures, this resolved the oading issue son mobiles and improved the performace score greatly.
 
+I did discover that an error page would be required incase someone typed a page url incorrectly. This was quickly set-up and impletmend. It can be viewed here: [404 Page](404.html).
+The 404 page was also then included in all testing to ensure it was working correctly.
+
+### Bugs that occured
 - When a modal was opened and a video played, the video would not stop when the modal was closed. Creating a bad user experience as the user would need to find teh same modal and stop the video.
     - The resolution to this was complex for me at this point in learning as I have no experiecne of jvascript. Reaching out, I found someone who helped assist me through the process of using vanilla javascript.
     - The modal closebutton was captured and on click it would remove then add the youtube video src, causing the video to stop, but still be availabe if the modal was re-visited.
-    - For HTML4 video players the modal close button would cause the video to pause.
+    - For HTML5 video players the modal close button would cause the video to pause.
 - When in mobile view, the nav bar would not collapse when a link was clicked that pointed to an anchor on the same page. This created a bad user experience as the user would need to close the nav manuallt. 
     - This was resolved by searching for a vanilla javascript was to capture the link click action and add add collapsed to the navbar-sm-dropdown class.
+- Clipping to hero-image on mobile devices
+    - This was resolved by changing the background size from auto to contain for screens sizes lower than 414px
+- Text on testimonials was too large
+    - Resized with a media query
+- Image thumbnails on videography.html were broken
+    - paths were corrected
+- Button on animation card of index.html stuck out of the bottom 
+    - Added to existing media query .latest-height to 70% width
+- Modal images overlapping on the bottom of each image
+    -   Changed the height on img-gal to 80%
+- On iPhones about-video & contact-bg did not play
+    - Added playsinline to class of video
+- contact-bg-video broken on mobile
+    - corrected path
+- hero-bg did not span whole width of page on larger screens
+    - background-size changed to cover
+- contact-video was rendering with black squares on it
+    -resolution of video was too high, re-sized to lower resolution
 
+    All of the bugs that cropped up helped me with the debuggin processed, as I had not debugged html/css before. The chrome Developer tools were used greatly in this processed to ensure the root cause of the problem was located and the fix issued before editing my html pages.
 ## Deployment
 
-The project was created in GitPod and hosted through GitHub. 
-To clone the project:
+The project is hosted in GitHub and built in GitPod.
+
+The desployed site is hosted on GitHub Pages and can be viewd here : https://cod182.github.io/Milestone-Project-1/
+This was executed by:
+- Got to the Milestone-project-1 Repo
+- Clicking on Settings
+- Clicking on Pages
+- Selecting master from sources
+- Clicking save
+
+The site was the made avaiable at the above url.
+
+ To clone the project:
 
 - Go [Here](https://github.com/cod182/Milestone-Project-1)
 - Click Code
@@ -263,6 +305,20 @@ To clone the project:
     - Open with GitHub Desktop
     - Download as Zip
 - You can now open the project in a IDE or host to a server
+
+
+## Bugs/Changes During Development
+
+During the process of building the site I came across a few issues that were down to my html structur causing my css code not to take effect as I expected.
+I had issues with all my sections where the text content would not expand the background image. This was due to the was I had structured my html. Once I had used Chrome Developer Tools to make some on the fly adjustment I was able to sucsussfully get the background images and text content to work as expected.
+
+There was an issued with the archive pages where the videos and images would not display at the correct size, despite the sizes being set on the classes in css. After searching in Chrome Developer Tools it was found that class has a missing s and as the modals had been duplicated for multiple projects, none were getting the effects from the css. Once this was adjust for one image in a moda sucsussfully, the spelling correction was mad to all affected areas and the issues was resolved.
+
+It was decided during the development processed that as the site was and company was aimed toward video content, it would be a good idea to have a video backgroudn to the aboiut section. This was implemented in a new wireframe and added to the site using a html5 video autoplaying and muted in the background. It was chosed to keep it muted as it would be bad ux to have sound playing when you load a site. It was also then decided to have the main abobut conent on a seperate section os the bulk of the video was viewable.
+
+When it was discovered that videos did not stop playing when a modal was closed, I needed to find a way to stop them. I knew that the close modal button needed to be used to stop the video and javascript would be required, but did not have the experience. After attempting to use other answers from google, I reached out to an industry exper who guided me through the process of capturing the button click and capturing the src of the videos. Although I did no write the code myself, it threw me into he world of vanilla javascript. Credited the industry expert in credits section. JB
+
+The nav was found not to collapse when a link was clicked while mobile. As i had be somewher introduced to javascript I attempted to capture the button click and remove the show class from the nav's div. I did have to search on stackoverflow to find how others were attempting this and managed to find a way to get it working. This may not be perfect, but given my lack of current knowledge  with javascript, it did cause the nav to be collapsed when a link was clicked.
 
 # Credits
 
