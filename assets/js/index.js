@@ -1,3 +1,4 @@
+// Help with this code provided by James Bainbridge
 const videoModals = document.querySelectorAll('[data-video-modal]');
 
 for (let i = 0; i < videoModals.length; i++) {
@@ -15,7 +16,7 @@ for (let i = 0; i < videoModals.length; i++) {
         }
       });
 }
-
+// Help with this code provided by stackoverflow searches
 document.addEventListener("click", function(event) {
    if (event.target.classList.contains('nav-link')) {
       document.getElementById('navbar-sm-dropdown').classList.remove("show");
