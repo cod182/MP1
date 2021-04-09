@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* LINE BREAKS */
+/* -------------------------------------------------------LINE BREAKS */
 .line-break {
     margin:0 auto;
     margin-bottom: 20px;
@@ -44,7 +44,7 @@
     margin-bottom:10px ;
 }
 
-/* TEXT */
+/* -------------------------------------------------------TEXT */
 .uppercase {
     text-transform: uppercase;
 }
@@ -80,7 +80,7 @@
     font-size: smaller !important;
 }
 
-/* COLOURS */
+/* -------------------------------------------------------COLOURS */
 
 .white {
     color: #fff;
@@ -106,7 +106,7 @@
     color: black;
 }
 
-/* WILDCARD */
+/* -------------------------------------------------------WILDCARD */
 *  {
     font-family: "roboto", sans-serif;
     margin: 0;
@@ -175,8 +175,8 @@ button {
     border: 1px solid black;
 }
 
-/* =====================================================
-    ====================================Images======= */
+/* -------------------------------------------------------Images */
+
 .shake:hover {
     animation: shake .2s;
     animation-iteration-count: infinite;
@@ -186,6 +186,7 @@ button {
   50% { transform: rotate(-1deg); }
   100% { transform: rotate(1deg); }
 }
+/* -------------------------------------------------------Navbar */
 
 .navbar, .navbar-expand-lg, .navbar-light{
     width: 100%;
@@ -276,8 +277,8 @@ button {
     border-radius: 10px;
 }
 
-/* =====================================================
-    ====================================Hero Image======= */
+/* -------------------------------------------------------Hero Image */
+
 .hero-container {
     height: 100vh;
 }
@@ -330,8 +331,8 @@ button {
         background-size: contain;
     }
 }
-/* =====================================================
-    ====================================About Section======= */
+/* -------------------------------------------------------About Section */
+
 #about-continued {
     background-image: url(../images/about-bg.png);
     background-attachment: fixed;
@@ -554,8 +555,7 @@ button {
         width: 100%;
     }
 }
-/* =====================================================
-    ====================================Latest Projects Section======= */
+/* -------------------------------------------------------Latest Projects Section */
 
 .latest-projects {
     padding-bottom: 0;
@@ -712,8 +712,8 @@ button {
     }
 
 }
-/* =====================================================
-    ====================================MODAL======= */
+
+/* -------------------------------------------------------Modals */
 
 .modal-body {
     min-height: 30vh;
@@ -737,7 +737,7 @@ button {
     float: right;
 }
 
-/* Gallery */
+/* -------------------------------------------------------Modal Gallery */
 
 .h1-gal {
 text-align:center;
@@ -759,8 +759,7 @@ border-bottom:2px solid #f1f1f1;
 #box-mar {
     margin: 0 auto;
 }
-/* =====================================================
-    ====================================Contact Section======= */
+/* -------------------------------------------------------contact section */
 
 .contact-section {
     background-color: #0e1b7b;
@@ -889,7 +888,7 @@ border-bottom:2px solid #f1f1f1;
         margin-top: 50px;
     }
 }
-/* Footer */
+/* -------------------------------------------------------Footer */
 
 .footer {
     font-family: lato, "open-sans";
@@ -938,8 +937,7 @@ border-bottom:2px solid #f1f1f1;
     font-weight: bold;
 }
 
-/* ==========================================================================================================
-    =========================================================================================Archive Pages======= */
+/* -------------------------------------------------------Archive Pages */
 
 .portfolio-heading {
     font-family: roboto, "open-sans";
@@ -1050,8 +1048,7 @@ border-bottom:2px solid #f1f1f1;
     } 
 }
 
-/* ==========================================================================================================
-    =========================================================================================404 Page======= */
+/* -------------------------------------------------------404 Page */
 
 .error-content {
     margin: 200px auto;

@@ -253,6 +253,8 @@ The overall results was good, with a few bugs found. These were resolved by usin
 
 Loading times on desktop sites were good to start with but mobile sites had overally network load issues. This has to be resolved using a src set on pictures, this resolved the oading issue son mobiles and improved the performace score greatly.
 
+The only remaing html errors are for the form method and action. These are to be added when backend is developed
+
 I did discover that an error page would be required incase someone typed a page url incorrectly. This was quickly set-up and impletmend. It can be viewed here: [404 Page](404.html).
 The 404 page was also then included in all testing to ensure it was working correctly.
 
