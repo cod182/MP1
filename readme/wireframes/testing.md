@@ -560,49 +560,49 @@ No issues found that weren't detected in previous tests
 -----
 ### **Laptop 13" Screen 1280x800**
 
-|Page|Test|Result|
-|---|---|---|
-|index.html|Page Load Quickly|Pass|
-|index.html|About Link Works|Pass|
-|index.html|About Video Plays|Pass|
-|index.html|Home Link Works|Pass|
-|index.html|Project Link Works|Pass|
-|index.html|Latest Project Cards Flip|Pass|
-|index.html|Modal Opens/Closes|Pass|
-|index.html|Top of Page Button Works|Pass|
-|index.html|Contact Link Works|Pass|
-|index.html|Contact Form Works|Pass|
-|index.html|Brand Icon Link Works|Pass|
-|index.html|Animation Page Link Works|Pass|
-|animation.html|Thumbnail Shakes on hover|Pass|
-|animation.html|Modal Opens|Pass|
-|animation.html|Video Plays|Pass|
-|animation.html|Videos stops when Modal Closed|Pass|
-|animation.html|Contact Link Works|Pass|
-|animation.html|Brand Link Works|Pass|
-|animation|About Link Works|Pass|
-|editing.html|Thumbnail Shakes on hover|Pass|
-|editing.html|Modal Opens|Pass|
-|editing.html|Video Plays|Pass||
-|editing.html|Videos stops when Modal Closed|Pass|
-|editing.html|Contact Link Works|Pass|
-|editing.html|Brand Link Works|Pass|
-|editing|About Link Works|Pass|
-|photography.html|Thumbnail Shakes on hover|Pass|
-|photography.html|Modal Opens|Pass|
-|photography.html|Video Plays|Pass|
-|photography.html|Videos stops when Modal Closed|Pass|
-|photography.html|Contact Link Works|Pass|
-|photography.html|Brand Link Works|Pass|
-|photography|About Link Works|Pass|
-|videography.html|Thumbnail Shakes on hover|Pass|
-|videography.html|Modal Opens|Pass|
-|videography.html|Video Plays|Pass|
-|videography.html|Videos stops when Modal Closed|Pass|
-|videography.html|Contact Link Works|Pass|
-|videography.html|Brand Link Works|Pass|
-|videography|About Link Works|Pass|
-|404.html|Head Home Button Works|Pass|
+|Page|Test|Result Safari|Result Chrome
+|---|---|---|---|
+|index.html|Page Load Quickly|Pass|Pass|
+|index.html|About Link Works|Pass|Pass|
+|index.html|About Video Plays|Pass|Pass|
+|index.html|Home Link Works|Pass|Pass|
+|index.html|Project Link Works|Pass|Pass|
+|index.html|Latest Project Cards Flip|Pass|Pass|
+|index.html|Modal Opens/Closes|Pass|Pass|
+|index.html|Top of Page Button Works|Pass|Pass|
+|index.html|Contact Link Works|Pass|Pass|
+|index.html|Contact Form Works|Pass|Pass|
+|index.html|Brand Icon Link Works|Pass|Pass|
+|index.html|Animation Page Link Works|Pass|Pass|
+|animation.html|Thumbnail Shakes on hover|Pass|Pass|
+|animation.html|Modal Opens|Pass|Pass|
+|animation.html|Video Plays|Pass|Pass|
+|animation.html|Videos stops when Modal Closed|Pass|Pass|
+|animation.html|Contact Link Works|Pass|Pass|
+|animation.html|Brand Link Works|Pass|Pass|
+|animation|About Link Works|Pass|Pass|
+|editing.html|Thumbnail Shakes on hover|Pass|Pass|
+|editing.html|Modal Opens|Pass|Pass|
+|editing.html|Video Plays|Pass|Pass|
+|editing.html|Videos stops when Modal Closed|Pass|Pass|
+|editing.html|Contact Link Works|Pass|Pass|
+|editing.html|Brand Link Works|Pass|Pass|
+|editing|About Link Works|Pass|Pass|
+|photography.html|Thumbnail Shakes on hover|Pass|Pass|
+|photography.html|Modal Opens|Pass|Pass|
+|photography.html|Video Plays|Pass|Pass|
+|photography.html|Videos stops when Modal Closed|Pass|Pass|
+|photography.html|Contact Link Works|Pass|Pass|
+|photography.html|Brand Link Works|Pass|Pass|
+|photography|About Link Works|Pass|Pass|
+|videography.html|Thumbnail Shakes on hover|Pass|Pass|
+|videography.html|Modal Opens|Pass|Pass|
+|videography.html|Video Plays|Pass|Pass|
+|videography.html|Videos stops when Modal Closed|Pass|Pass|
+|videography.html|Contact Link Works|Pass|Pass|
+|videography.html|Brand Link Works|Pass|Pass|
+|videography|About Link Works|Pass|Pass|
+|404.html|Head Home Button Works|Pass|Pass|
 
 ### Issues
 | Resolution | Comment | Solution |
@@ -611,49 +611,49 @@ No issues found that weren't detected in previous tests
 
 ### **Laptop 16" Screen 3072x1920**
 
-|Page|Test|Result|
-|---|---|---|
-|index.html|Page Load Quickly|Pass|
-|index.html|About Link Works|Pass|
-|index.html|About Video Plays|Pass|
-|index.html|Home Link Works|Pass|
-|index.html|Project Link Works|Pass|
-|index.html|Latest Project Cards Flip|Pass|
-|index.html|Modal Opens/Closes|Pass|
-|index.html|Top of Page Button Works|Pass|
-|index.html|Contact Link Works|Pass|
-|index.html|Contact Form Works|Pass|
-|index.html|Brand Icon Link Works|Pass|
-|index.html|Animation Page Link Works|Pass|
-|animation.html|Thumbnail Shakes on hover|Pass|
-|animation.html|Modal Opens|Pass|
-|animation.html|Video Plays|Pass|
-|animation.html|Videos stops when Modal Closed|Pass|
-|animation.html|Contact Link Works|Pass|
-|animation.html|Brand Link Works|Pass|
-|animation|About Link Works|Pass|
-|editing.html|Thumbnail Shakes on hover|Pass|
-|editing.html|Modal Opens|Pass|
-|editing.html|Video Plays|Pass||
-|editing.html|Videos stops when Modal Closed|Pass|
-|editing.html|Contact Link Works|Pass|
-|editing.html|Brand Link Works|Pass|
-|editing|About Link Works|Pass|
-|photography.html|Thumbnail Shakes on hover|Pass|
-|photography.html|Modal Opens|Pass|
-|photography.html|Video Plays|Pass|
-|photography.html|Videos stops when Modal Closed|Pass|
-|photography.html|Contact Link Works|Pass|
-|photography.html|Brand Link Works|Pass|
-|photography|About Link Works|Pass|
-|videography.html|Thumbnail Shakes on hover|Pass|
-|videography.html|Modal Opens|Pass|
-|videography.html|Video Plays|Pass|
-|videography.html|Videos stops when Modal Closed|Pass|
-|videography.html|Contact Link Works|Pass|
-|videography.html|Brand Link Works|Pass|
-|videography|About Link Works|Pass|
-|404.html|Head Home Button Works|Pass|
+|Page|Test|Result Safari|Result Chrome
+|---|---|---|---|
+|index.html|Page Load Quickly|Pass|Pass|
+|index.html|About Link Works|Pass|Pass|
+|index.html|About Video Plays|Pass|Pass|
+|index.html|Home Link Works|Pass|Pass|
+|index.html|Project Link Works|Pass|Pass|
+|index.html|Latest Project Cards Flip|Pass|Pass|
+|index.html|Modal Opens/Closes|Pass|Pass|
+|index.html|Top of Page Button Works|Pass|Pass|
+|index.html|Contact Link Works|Pass|Pass|
+|index.html|Contact Form Works|Pass|Pass|
+|index.html|Brand Icon Link Works|Pass|Pass|
+|index.html|Animation Page Link Works|Pass|Pass|
+|animation.html|Thumbnail Shakes on hover|Pass|Pass|
+|animation.html|Modal Opens|Pass|Pass|
+|animation.html|Video Plays|Pass|Pass|
+|animation.html|Videos stops when Modal Closed|Pass|Pass|
+|animation.html|Contact Link Works|Pass|Pass|
+|animation.html|Brand Link Works|Pass|Pass|
+|animation|About Link Works|Pass|Pass|
+|editing.html|Thumbnail Shakes on hover|Pass|Pass|
+|editing.html|Modal Opens|Pass|Pass|
+|editing.html|Video Plays|Pass|Pass|
+|editing.html|Videos stops when Modal Closed|Pass|Pass|
+|editing.html|Contact Link Works|Pass|Pass|
+|editing.html|Brand Link Works|Pass|Pass|
+|editing|About Link Works|Pass|Pass|
+|photography.html|Thumbnail Shakes on hover|Pass|Pass|
+|photography.html|Modal Opens|Pass|Pass|
+|photography.html|Video Plays|Pass|Pass|
+|photography.html|Videos stops when Modal Closed|Pass|Pass|
+|photography.html|Contact Link Works|Pass|Pass|
+|photography.html|Brand Link Works|Pass|Pass|
+|photography|About Link Works|Pass|Pass|
+|videography.html|Thumbnail Shakes on hover|Pass|Pass|
+|videography.html|Modal Opens|Pass|Pass|
+|videography.html|Video Plays|Pass|Pass|
+|videography.html|Videos stops when Modal Closed|Pass|Pass|
+|videography.html|Contact Link Works|Pass|Pass|
+|videography.html|Brand Link Works|Pass|Pass|
+|videography|About Link Works|Pass|Pass|
+|404.html|Head Home Button Works|Pass|Pass|
 
 ### Issues
 | Resolution | Comment | Solution |
@@ -662,49 +662,49 @@ No issues found that weren't detected in previous tests
 
 ### **Desktop 22" Screen 1680x1050**
 
-|Page|Test|Result|
-|---|---|---|
-|index.html|Page Load Quickly|Pass|
-|index.html|About Link Works|Pass|
-|index.html|About Video Plays|Pass|
-|index.html|Home Link Works|Pass|
-|index.html|Project Link Works|Pass|
-|index.html|Latest Project Cards Flip|Pass|
-|index.html|Modal Opens/Closes|Pass|
-|index.html|Top of Page Button Works|Pass|
-|index.html|Contact Link Works|Pass|
-|index.html|Contact Form Works|Pass|
-|index.html|Brand Icon Link Works|Pass|
-|index.html|Animation Page Link Works|Pass|
-|animation.html|Thumbnail Shakes on hover|Pass|
-|animation.html|Modal Opens|Pass|
-|animation.html|Video Plays|Pass|
-|animation.html|Videos stops when Modal Closed|Pass|
-|animation.html|Contact Link Works|Pass|
-|animation.html|Brand Link Works|Pass|
-|animation|About Link Works|Pass|
-|editing.html|Thumbnail Shakes on hover|Pass|
-|editing.html|Modal Opens|Pass|
-|editing.html|Video Plays|Pass||
-|editing.html|Videos stops when Modal Closed|Pass|
-|editing.html|Contact Link Works|Pass|
-|editing.html|Brand Link Works|Pass|
-|editing|About Link Works|Pass|
-|photography.html|Thumbnail Shakes on hover|Pass|
-|photography.html|Modal Opens|Pass|
-|photography.html|Video Plays|Pass|
-|photography.html|Videos stops when Modal Closed|Pass|
-|photography.html|Contact Link Works|Pass|
-|photography.html|Brand Link Works|Pass|
-|photography|About Link Works|Pass|
-|videography.html|Thumbnail Shakes on hover|Pass|
-|videography.html|Modal Opens|Pass|
-|videography.html|Video Plays|Pass|
-|videography.html|Videos stops when Modal Closed|Pass|
-|videography.html|Contact Link Works|Pass|
-|videography.html|Brand Link Works|Pass|
-|videography|About Link Works|Pass|
-|404.html|Head Home Button Works|Pass|
+|Page|Test|Result Safari|Result Chrome
+|---|---|---|---|
+|index.html|Page Load Quickly|Pass|Pass|
+|index.html|About Link Works|Pass|Pass|
+|index.html|About Video Plays|Pass|Pass|
+|index.html|Home Link Works|Pass|Pass|
+|index.html|Project Link Works|Pass|Pass|
+|index.html|Latest Project Cards Flip|Pass|Pass|
+|index.html|Modal Opens/Closes|Pass|Pass|
+|index.html|Top of Page Button Works|Pass|Pass|
+|index.html|Contact Link Works|Pass|Pass|
+|index.html|Contact Form Works|Pass|Pass|
+|index.html|Brand Icon Link Works|Pass|Pass|
+|index.html|Animation Page Link Works|Pass|Pass|
+|animation.html|Thumbnail Shakes on hover|Pass|Pass|
+|animation.html|Modal Opens|Pass|Pass|
+|animation.html|Video Plays|Pass|Pass|
+|animation.html|Videos stops when Modal Closed|Pass|Pass|
+|animation.html|Contact Link Works|Pass|Pass|
+|animation.html|Brand Link Works|Pass|Pass|
+|animation|About Link Works|Pass|Pass|
+|editing.html|Thumbnail Shakes on hover|Pass|Pass|
+|editing.html|Modal Opens|Pass|Pass|
+|editing.html|Video Plays|Pass|Pass|
+|editing.html|Videos stops when Modal Closed|Pass|Pass|
+|editing.html|Contact Link Works|Pass|Pass|
+|editing.html|Brand Link Works|Pass|Pass|
+|editing|About Link Works|Pass|Pass|
+|photography.html|Thumbnail Shakes on hover|Pass|Pass|
+|photography.html|Modal Opens|Pass|Pass|
+|photography.html|Video Plays|Pass|Pass|
+|photography.html|Videos stops when Modal Closed|Pass|Pass|
+|photography.html|Contact Link Works|Pass|Pass|
+|photography.html|Brand Link Works|Pass|Pass|
+|photography|About Link Works|Pass|Pass|
+|videography.html|Thumbnail Shakes on hover|Pass|Pass|
+|videography.html|Modal Opens|Pass|Pass|
+|videography.html|Video Plays|Pass|Pass|
+|videography.html|Videos stops when Modal Closed|Pass|Pass|
+|videography.html|Contact Link Works|Pass|Pass|
+|videography.html|Brand Link Works|Pass|Pass|
+|videography|About Link Works|Pass|Pass|
+|404.html|Head Home Button Works|Pass|Pass|
 
 ### Issues
 | Resolution | Comment | Solution |
@@ -713,49 +713,49 @@ No issues found that weren't detected in previous tests
 
 ### **iMac 5k 27" Screen 5120x2880**
 
-|Page|Test|Result|
-|---|---|---|
-|index.html|Page Load Quickly|Pass|
-|index.html|About Link Works|Pass|
-|index.html|About Video Plays|Pass|
-|index.html|Home Link Works|Pass|
-|index.html|Project Link Works|Pass|
-|index.html|Latest Project Cards Flip|Pass|
-|index.html|Modal Opens/Closes|Pass|
-|index.html|Top of Page Button Works|Pass|
-|index.html|Contact Link Works|Pass|
-|index.html|Contact Form Works|Pass|
-|index.html|Brand Icon Link Works|Pass|
-|index.html|Animation Page Link Works|Pass|
-|animation.html|Thumbnail Shakes on hover|Pass|
-|animation.html|Modal Opens|Pass|
-|animation.html|Video Plays|Pass|
-|animation.html|Videos stops when Modal Closed|Pass|
-|animation.html|Contact Link Works|Pass|
-|animation.html|Brand Link Works|Pass|
-|animation|About Link Works|Pass|
-|editing.html|Thumbnail Shakes on hover|Pass|
-|editing.html|Modal Opens|Pass|
-|editing.html|Video Plays|Pass||
-|editing.html|Videos stops when Modal Closed|Pass|
-|editing.html|Contact Link Works|Pass|
-|editing.html|Brand Link Works|Pass|
-|editing|About Link Works|Pass|
-|photography.html|Thumbnail Shakes on hover|Pass|
-|photography.html|Modal Opens|Pass|
-|photography.html|Video Plays|Pass|
-|photography.html|Videos stops when Modal Closed|Pass|
-|photography.html|Contact Link Works|Pass|
-|photography.html|Brand Link Works|Pass|
-|photography|About Link Works|Pass|
-|videography.html|Thumbnail Shakes on hover|Pass|
-|videography.html|Modal Opens|Pass|
-|videography.html|Video Plays|Pass|
-|videography.html|Videos stops when Modal Closed|Pass|
-|videography.html|Contact Link Works|Pass|
-|videography.html|Brand Link Works|Pass|
-|videography|About Link Works|Pass|
-|404.html|Head Home Button Works|Pass|
+|Page|Test|Result Safari|Result Chrome
+|---|---|---|---|
+|index.html|Page Load Quickly|Pass|Pass|
+|index.html|About Link Works|Pass|Pass|
+|index.html|About Video Plays|Pass|Pass|
+|index.html|Home Link Works|Pass|Pass|
+|index.html|Project Link Works|Pass|Pass|
+|index.html|Latest Project Cards Flip|Pass|Pass|
+|index.html|Modal Opens/Closes|Pass|Pass|
+|index.html|Top of Page Button Works|Pass|Pass|
+|index.html|Contact Link Works|Pass|Pass|
+|index.html|Contact Form Works|Pass|Pass|
+|index.html|Brand Icon Link Works|Pass|Pass|
+|index.html|Animation Page Link Works|Pass|Pass|
+|animation.html|Thumbnail Shakes on hover|Pass|Pass|
+|animation.html|Modal Opens|Pass|Pass|
+|animation.html|Video Plays|Pass|Pass|
+|animation.html|Videos stops when Modal Closed|Pass|Pass|
+|animation.html|Contact Link Works|Pass|Pass|
+|animation.html|Brand Link Works|Pass|Pass|
+|animation|About Link Works|Pass|Pass|
+|editing.html|Thumbnail Shakes on hover|Pass|Pass|
+|editing.html|Modal Opens|Pass|Pass|
+|editing.html|Video Plays|Pass|Pass|
+|editing.html|Videos stops when Modal Closed|Pass|Pass|
+|editing.html|Contact Link Works|Pass|Pass|
+|editing.html|Brand Link Works|Pass|Pass|
+|editing|About Link Works|Pass|Pass|
+|photography.html|Thumbnail Shakes on hover|Pass|Pass|
+|photography.html|Modal Opens|Pass|Pass|
+|photography.html|Video Plays|Pass|Pass|
+|photography.html|Videos stops when Modal Closed|Pass|Pass|
+|photography.html|Contact Link Works|Pass|Pass|
+|photography.html|Brand Link Works|Pass|Pass|
+|photography|About Link Works|Pass|Pass|
+|videography.html|Thumbnail Shakes on hover|Pass|Pass|
+|videography.html|Modal Opens|Pass|Pass|
+|videography.html|Video Plays|Pass|Pass|
+|videography.html|Videos stops when Modal Closed|Pass|Pass|
+|videography.html|Contact Link Works|Pass|Pass|
+|videography.html|Brand Link Works|Pass|Pass|
+|videography|About Link Works|Pass|Pass|
+|404.html|Head Home Button Works|Pass|Pass|
 
 ### Issues
 | Resolution | Comment | Solution |
