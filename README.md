@@ -275,6 +275,8 @@ The 404 page was also then included in all testing to ensure it was working corr
     -   Changed the height on img-gal to 80%
 - On iPhones about-video & contact-bg did not play
     - Added playsinline to class of video
+- On iphone the about-bg video had black bars around it
+    -re-sized video with custom resolution
 - contact-bg-video broken on mobile
     - corrected path
 - hero-bg did not span whole width of page on larger screens

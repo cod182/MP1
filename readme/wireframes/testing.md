@@ -399,6 +399,7 @@ No issues found that weren't detected in previous tests
 |---|---|---|---|
 |iPhone XS Max|Verticle|About video not playing|added playsinline to video tag|
 |iPhone XS Max|Verticle|contact video not playing|removed extra .mp4 text from link|
+|iPhone XS Max|Verticle|about-bg video had black bar to the top and bottom after resizing for lower resolution|resized the video with custom resolution|
 
 -----
 ### **iPhone 12 Pro**
