@@ -32,6 +32,8 @@ Embedded video will be available on project pages where applicable.
 
 - The user needs the site to be accessible mainly on mobile device but equally on tablets and desktops. 
 - Information must be easy to access, clearly displayed and easy to digest.
+- The user needs to understand the types of work that can be carried out.
+- The used needs to be be able to easily access exambples of previous work.
 
 Technical Capabilities
 
